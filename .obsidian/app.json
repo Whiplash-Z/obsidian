@@ -1,5 +1,6 @@
 {
   "promptDelete": true,
   "attachmentFolderPath": "4. Archive/attachedFiles",
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true
 }
