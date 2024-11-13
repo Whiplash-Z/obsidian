@@ -5,7 +5,9 @@
 ---
 
 # PARA: 목적을 기준으로 분류한다.
-![[PARA.png]]
+![image](https://github.com/user-attachments/assets/58b38719-3ee6-4dec-8de9-662bd519c9be)
+
+
 
 - Lovely Box
 	- **즐겨찾기**
@@ -32,5 +34,5 @@
 작은 단위의 노트 생성 -> 노트를 연결해가며 생각을 발전시키는 방식
 
 
-![[Pasted image 20241108170922.png]]
+![image](https://github.com/user-attachments/assets/3044b8bb-8cd6-4b6f-ba11-c31a7518d569)
 
