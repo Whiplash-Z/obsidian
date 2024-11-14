@@ -73,6 +73,12 @@
             "scale": 0.6125538094718883,
             "close": true
           }
+        },
+        {
+          "type": "file",
+          "ctime": 1731568681995,
+          "path": "Excalidraw/Drawing 2024-11-14 15.57.15.excalidraw.md",
+          "title": "자바 메모리 구조"
         }
       ],
       "title": "Untitled group"
