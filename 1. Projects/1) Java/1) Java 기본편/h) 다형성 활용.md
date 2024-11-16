@@ -288,6 +288,156 @@ Class 'Dog' must either be declared abstract or implement abstract method 'sound
 
 
 # 인터페이스
+>[!Note] 순수 추상 클래스
+>**모든 메서드가 추상 메서드인 순수 추상 클래스**는 코드를 실행할 바디 부분이 없다.
+```java
+package poly.ex4;  
+  
+public abstract class AbstractAnimal {  
+  
+    // 자식이 반드시 오버라이드 해야하는 목적  
+    public abstract void sound();  
+    public abstract void move();  
+}
+```
+
+
+```java
+package poly.ex4;  
+  
+public class Cat extends AbstractAnimal {  
+    @Override  
+    public void sound() {  
+        System.out.println("야옹 ~!");  
+    }  
+  
+    @Override  
+    public void move() {  
+        System.out.println("고양이 이동");  
+    }  
+}
+```
+
+- 순수 추상 클래스의 특징
+	- **인스턴스를 생성할 수 없다.**
+	- 상속 시 자식은 **모든 메서드를 오버라이딩 해야한다.**
+	- 주로 다형성을 위해 사용된다.
+
+>[!Note] 순수 추상클래스를 더 편리하게 사용할 수 있도록 **인터페이스**라는 개념을 제공한다.
+```java
+public interface InterfaceAnimal { 
+	public abstract void sound(); 
+	public abstract void move(); 
+}
+```
+
+인터페이스: **public abstract 키워드 생략 가능**
+```java
+public interface InterfaceAnimal { 
+	void sound(); 
+	void move(); 
+}
+```
+- **인터페이스는 순수 추상 클래스와 같고**, 약간의 편의 기능이 추가된다.
+	- 인터페이스의 메서드는 모두 `public`, `abstrat`이다.
+	- 메서드에 `public abstract`를 생략할 수 있다. **(권장)**
+	- 인터페이스는 **다중 구현(다중 상속)을 지원한다.**
+
+
+인터페이스와 멤버 변수
+```java
+public interface InterfaceAnimal { 
+	public static final double MY_PI = 3.14; 
+}
+```
+- 인터페이스에서 멤버 변수는 public, static, final이 모두 포함되었다고 간주한다.
+	- static final: 정적이면서 고칠 수 없는 변수 = 상수
+- 다음과 같이 생략할 수 있다. **(권장)**
+```java
+public interface InterfaceAnimal { 
+	double MY_PI = 3.14; 
+}
+```
+---
+![[Pasted image 20241116133320.png]]
+```java
+package poly.ex5;  
+  
+public interface InterfaceAnimal {  
+  
+    void sound(); // public abstract  
+    void move(); // public abstract  
+}
+```
+```java
+package poly.ex5;  
+  
+public class Cat implements InterfaceAnimal  
+{  
+    @Override  
+    public void sound() {  
+        System.out.println("야옹 ~!");  
+    }  
+  
+    @Override  
+    public void move() {  
+        System.out.println("고양이 이동 === 333");  
+    }  
+}
+```
+
+- 인터페이스는 class 대신에 interface로 선언한다.
+- sound(), move()는 public abstract가 생략되어 있다. (반드시 오버라이딩 해야함)
+- 인터페이스를 상속 받을 때는 extends 대신에 implements(구현)라는 키워드 사용
+
+```java
+package poly.ex5;  
+  
+public class InterfaceMain {  
+    public static void main(String[] args) {  
+  
+        // 인터페이스 생성 불가  
+        // InterfaceAnimal interfaceAnimal = new InterfaceAnimal();  
+  
+        Cat cat = new Cat();  
+        Dog dog = new Dog();  
+        Caw caw = new Caw();  
+  
+        soundAnimal(cat);  
+        soundAnimal(dog);  
+        soundAnimal(caw);  
+    }  
+  
+    public static void soundAnimal(InterfaceAnimal animal) {  
+        System.out.println("동물 소리 테스트 시작");  
+        animal.sound();  
+        System.out.println("동물 소리 테스트 종료");  
+    }  
+}
+```
+![[Pasted image 20241116133616.png]]
+
+>[!Note] 클래스, 추상 클래스, 인터페이스는 모두 똑같다.
+>- 프로그램 코드, 메모리 구조상 모두 똑같다.
+>- 자바에서는 모두 .class로 다루어진다.
+>- 인터페이스는 메서드 이름만 있는 설계도이고, 이 설계도가 실제로 어떻게 작동하는지는 하위 클래스에서 모두 구현해야 한다. (상속은 부모의 기능을 물려 받는 것이 목적)
+따라서 인터페이스의 경우 상속이 아니라 **인터페이스를 구현한다고 표현한다.**
+
+
+# 인터페이스 다중 구현 ^whyUseInterface
+
+>[!Note] 인터페이스를 사용해야하는 이유
+>모든 메서드가 추상 메서드인 경우 순수 추상 클래스를 만들어도 되고, 인터페이스를 만들어도 된다. 그런데 왜 인터페이스를 사용해야 할까?
+>1. 제약
+>	- 인터페이스를 사용하는 이유는, 인터페이스를 구현하는 곳에서 메서드를 반드시 구현하라는 규약(제약)을 주는 것이다.
+>	- **순수 추상 클래스의 경우, 미래에 누군가 실행 가능한 메서드를 끼워 넣을 수 있다.** 이렇게 되면 추가된 기능을 자식 클래스에서 구현하지 않을 수도 있고, **더는 순수 추상 클래스가 아니게 된다.**
+>	- 인터페이스는 모든 메서드가 추상 메서드이기 때문에 **이런 문제를 원천 차단**할 수 있다.
+>2. 다중 구현
+>	- 자바에서 **클래스 상속은 부모를 하나만 지정**할 수 있다.
+>	- 반면에 인터페이스는 부모를 여러명 두는 **다중 구현(다중 상속)이 가능**하다.
+
+
+
 
 
 
