@@ -438,9 +438,95 @@ public class InterfaceMain {
 
 
 
+>[!Warning] 다중 상속의 문제점
+그림과 같이 다중 상속을 사용하게 되면, `AirplaneCar` 입장에서 `move()`를 호출할 때
+**어떤 부모의 move()를 사용해야 할지 애매한 문제가 발생한다.** = 다이아몬드 문제
+
+![[Pasted image 20241116141733.png]]
+
+
+>[!Success] 인터페이스의 다중 구현
+
+![[Pasted image 20241116142009.png]]
+
+- InterfaceA, InterfaceB는 둘다 같은 methodCommon()을 가지고 있다.
+- 인터페이스 자신은 구현을 가지지 않고, **구현하는 곳에서 해당 기능을 모두 구현해야 한다.**
+	- InterfaceA, InterfaceB는 같은 이름의 methodCommon()을 제공하지만,
+	  이 기능은 **Child가 구현한다.**
+	- 오버라이딩에 의해 **Child에 있는 methodCommon()이 호출된다.**
+- 결과적으로 두 부모중에 어떤 한 부모의 methodCommon()을 선택하는 것이 아니라,
+  **인터페이스들을 구현한 Child에 있는 methodCommon()이 사용된다.**
+  이러한 이유로 인터페이스는 다이아몬드 문제가 발생하지 않는다.
+  **따라서 인터페이스의 경우 다중 구현을 허용한다.**
+```java
+package poly.diamond;  
+  
+public interface InterfaceA {  
+    void methodA();  
+  
+    void methodCommon();  
+  
+}
+```
+
+```java
+package poly.diamond;  
+  
+public interface InterfaceB {  
+    void methodB();  
+  
+    void methodCommon();  
+  
+}
+```
+
+```java
+package poly.diamond;  
+  
+public class Child implements InterfaceA, InterfaceB {  
+    @Override  
+    public void methodA() {  
+        System.out.println("Child.methodA");  
+    }  
+  
+    @Override  
+    public void methodB() {  
+        System.out.println("Child.methodB");  
+    }  
+  
+    @Override  
+    public void methodCommon() {  
+        System.out.println("Child.methodCommon");  
+    }  
+}
+```
+>[!Success] methodCommon()의 경우 양쪽 인터페이스에 다 있지만,같은 메서드이므로 구현은 하나만 하면 된다.
 
 
 
+```java
+package poly.diamond;  
+  
+public class DiamondMain {  
+    public static void main(String[] args) {  
+        InterfaceA interfaceA = new Child();  
+        interfaceA.methodA();  
+        interfaceA.methodCommon();  
+  
+  
+        InterfaceB interfaceB = new Child();  
+        interfaceB.methodB();  
+        interfaceB.methodCommon();  
+  
+    }  
+}
+```
 
-
-# 클래스와 인터페이스 활용
+```
+Child.methodA
+Child.methodCommon
+Child.methodB
+Child.methodCommon
+```
+![[Pasted image 20241116142745.png]]
+![[Pasted image 20241116142805.png]]
