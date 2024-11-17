@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. Lovely Box/할 일.md",
+                "file": "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/스프링 핵심 원리.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "할 일"
+              "title": "스프링 핵심 원리"
             }
           }
         ]
@@ -178,12 +178,19 @@
   },
   "active": "988b947ef1bc7be4",
   "lastOpenFiles": [
+    "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/기본편 (스프링) INDEX.md",
+    "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/스프링 핵심 원리.md",
+    "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/스프링 컨테이너와 스프링 빈.md",
+    "2. Area/지원하고 싶은 회사.md",
+    "4. Archive/attachedFiles/Pasted image 20241118002342.png",
+    "4. Archive/attachedFiles/Pasted image 20241118001915.png",
+    "4. Archive/attachedFiles/Pasted image 20241118001842.png",
+    "4. Archive/attachedFiles/Pasted image 20241118001803.png",
+    "0. Lovely Box/할 일.md",
     "0. Lovely Box/3) Index - Infra.md",
     "0. Lovely Box/2) Index - DataBase.md",
     "0. Lovely Box/1) Index - Java.md",
     "3. Resource/Dev_Questions/칸반.md",
-    "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/스프링 핵심 원리 기본편.md",
-    "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/기본편 (스프링) INDEX.md",
     "4. Archive/attachedFiles/Pasted image 20241117222850.png",
     "4. Archive/attachedFiles/Pasted image 20241117220454.png",
     "4. Archive/attachedFiles/Pasted image 20241117214830.png",
@@ -197,12 +204,7 @@
     "4. Archive/attachedFiles/Pasted image 20241117203442.png",
     "Excalidraw/java-memory.excalidraw.md",
     "3. Resource/Redis.md",
-    "2. Area/지원하고 싶은 회사.md",
     "4. Archive/attachedFiles/Pasted image 20241117193730.png",
-    "4. Archive/attachedFiles/Pasted image 20241117193729.png",
-    "4. Archive/attachedFiles/Pasted image 20241117193717.png",
-    "4. Archive/attachedFiles/Pasted image 20241117193530.png",
-    "4. Archive/attachedFiles/Pasted image 20241117193147.png",
     "3. Resource/Dev_Questions/도메인 모델이란?.md",
     "1. Projects/1) Java/1) Java 객체지향/h) 다형성 활용.md",
     "3. Resource/Dev_Questions/PWA란?.md",
@@ -211,9 +213,7 @@
     "1. Projects/1) Java/1) Java 객체지향/d) 객체 지향 프로그래밍.md",
     "1. Projects/1) Java/1) Java 객체지향/c) 기본형과 참조형.md",
     "0. Lovely Box/Callout List.md",
-    "0. Lovely Box/할 일.md",
     "0. Lovely Box/@RestController도 MVC라고 할 수 있을까?.md",
-    "Excalidraw/Drawing 2024-11-15 23.08.30.excalidraw.md",
     "Excalidraw",
     "3. Resource/Dev_Questions",
     "1. Projects/1) Java",
