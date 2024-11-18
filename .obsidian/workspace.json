@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/의존관계 자동 주입.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               },
@@ -108,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5026054382324,
-    "collapsed": true
+    "width": 321.5026054382324
   },
   "right": {
     "id": "202c84756aa6c013",
@@ -209,8 +208,9 @@
   },
   "active": "988b947ef1bc7be4",
   "lastOpenFiles": [
-    "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/기본편 (스프링) INDEX.md",
+    "3. Resource/Dev_Questions/@Component와 @ComponentScan이 스프링 빈을 생성하고 의존성을 관리하는 방식.md",
     "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/의존관계 자동 주입.md",
+    "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/기본편 (스프링) INDEX.md",
     "4. Archive/attachedFiles/Pasted image 20241118145608.png",
     "4. Archive/attachedFiles/Pasted image 20241118145455.png",
     "4. Archive/attachedFiles/Pasted image 20241118145337.png",
