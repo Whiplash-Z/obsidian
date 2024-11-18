@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/기본편 (스프링) INDEX.md",
-                "mode": "source",
+                "file": "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/의존관계 자동 주입.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "기본편 (스프링) INDEX"
+              "title": "의존관계 자동 주입"
             }
           },
           {
@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/싱글톤 컨테이너.md",
-                "mode": "source",
+                "file": "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/기본편 (스프링) INDEX.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "싱글톤 컨테이너"
+              "title": "기본편 (스프링) INDEX"
             }
           },
           {
@@ -209,9 +209,15 @@
   },
   "active": "988b947ef1bc7be4",
   "lastOpenFiles": [
-    "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/객체 지향 설계와 스프링.md",
     "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/기본편 (스프링) INDEX.md",
+    "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/의존관계 자동 주입.md",
+    "4. Archive/attachedFiles/Pasted image 20241118145608.png",
+    "4. Archive/attachedFiles/Pasted image 20241118145455.png",
+    "4. Archive/attachedFiles/Pasted image 20241118145337.png",
     "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/싱글톤 컨테이너.md",
+    "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/컴포넌트 스캔.md",
+    "3. Resource/Dev_Questions/자바 바이트코드.md",
+    "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/객체 지향 설계와 스프링.md",
     "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/스프링 핵심 원리.md",
     "4. Archive/attachedFiles/Pasted image 20241118114714.png",
     "0. Lovely Box/할 일.md",
@@ -224,9 +230,6 @@
     "4. Archive/attachedFiles/Pasted image 20241118020151.png",
     "4. Archive/attachedFiles/Pasted image 20241118020042.png",
     "2. Area/지원하고 싶은 회사.md",
-    "4. Archive/attachedFiles/Pasted image 20241118002342.png",
-    "4. Archive/attachedFiles/Pasted image 20241118001915.png",
-    "4. Archive/attachedFiles/Pasted image 20241118001842.png",
     "0. Lovely Box/3) Index - Infra.md",
     "0. Lovely Box/2) Index - DataBase.md",
     "0. Lovely Box/1) Index - Java.md",
@@ -241,9 +244,6 @@
     "1. Projects/1) Java/1) Java 객체지향/h) 다형성 활용.md",
     "3. Resource/Dev_Questions/PWA란?.md",
     "1. Projects/1) Java/1) Java 객체지향/f) 상속.md",
-    "1. Projects/1) Java/1) Java 객체지향/g) 다형성.md",
-    "1. Projects/1) Java/1) Java 객체지향/d) 객체 지향 프로그래밍.md",
-    "1. Projects/1) Java/1) Java 객체지향/c) 기본형과 참조형.md",
     "Excalidraw",
     "3. Resource/Dev_Questions",
     "1. Projects/1) Java",
