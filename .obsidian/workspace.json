@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/📌 기본편 (스프링) INDEX.md",
+                "file": "1. Projects/1) Java/3) Generic & Collection/📌 중급 2편 INDEX.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📌 기본편 (스프링) INDEX"
+              "title": "📌 중급 2편 INDEX"
             }
           }
         ],
@@ -194,6 +194,8 @@
   },
   "active": "f244b43aa4b46518",
   "lastOpenFiles": [
+    "2. Area/1) Java/1) Java 객체지향/📌 기본편 (객체지향) INDEX.md",
+    "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/📌 기본편 (스프링) INDEX.md",
     "1. Projects/2) Spring/HTTP Web Basic/📌 HTTP Web Basic INDEX.md",
     "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/📌 중급 1편 (다양한 기능) INDEX.md",
     "0. Lovely Box/Brain Map.canvas",
@@ -219,11 +221,9 @@
     "0. Lovely Box/2) Index - DataBase.md",
     "0. Lovely Box/1) Index - Java.md",
     "Excalidraw/java-memory.excalidraw.md",
-    "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/📌 기본편 (스프링) INDEX.md",
     "2. Area/1) Java/1) Java 객체지향/h) 다형성 활용.md",
     "Excalidraw/Untitled.md",
     "Excalidraw/Drawing 2024-11-19 21.30.26.excalidraw.md",
-    "2. Area/1) Java/1) Java 객체지향/기본편 (객체지향) INDEX.md",
     "3. Resource/Dev_Questions/이력서, 어떻게 쓸까?.md",
     "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/불변 객체.md",
     "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/Object 클래스.md",
