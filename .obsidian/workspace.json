@@ -26,20 +26,19 @@
             "id": "c2923272e3c55a50",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "0. Lovely Box/Brain Map.canvas",
-                "viewState": {
-                  "x": -1253.9990607297404,
-                  "y": 510.7992394338023,
-                  "zoom": -2.623475750665364
-                }
+                "file": "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/📌 기본편 (스프링) INDEX.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Brain Map"
+              "icon": "lucide-file",
+              "title": "📌 기본편 (스프링) INDEX"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,121 +192,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "floating": {
-    "id": "1f280a2d8afc2852",
-    "type": "floating",
-    "children": [
-      {
-        "id": "be28c63a9ba1f193",
-        "type": "window",
-        "children": [
-          {
-            "id": "20b37aab8b4df4c5",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "14a661f18329c2e4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "1. Projects/2) Spring/HTTP Web Basic/HTTP Web Basic INDEX.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "HTTP Web Basic INDEX"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 25,
-        "width": 1280,
-        "height": 1415,
-        "maximize": false,
-        "zoom": 0.5
-      },
-      {
-        "id": "8cdd1c09288c1593",
-        "type": "window",
-        "children": [
-          {
-            "id": "c6df21d095b01d80",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8359e1c9fc0cd9fb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "1. Projects/2) Spring/HTTP Web Basic/HTTP Web Basic INDEX.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "HTTP Web Basic INDEX"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 25,
-        "width": 1280,
-        "height": 1415,
-        "maximize": false,
-        "zoom": 0.5
-      },
-      {
-        "id": "928bae17c85db714",
-        "type": "window",
-        "children": [
-          {
-            "id": "4621ced030a6cf48",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9f207ae933773e07",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "1. Projects/2) Spring/HTTP Web Basic/HTTP Web Basic INDEX.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "HTTP Web Basic INDEX"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 25,
-        "width": 1280,
-        "height": 1415,
-        "maximize": false,
-        "zoom": 0.5
-      }
-    ]
-  },
-  "active": "8359e1c9fc0cd9fb",
+  "active": "f244b43aa4b46518",
   "lastOpenFiles": [
+    "1. Projects/2) Spring/HTTP Web Basic/📌 HTTP Web Basic INDEX.md",
+    "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/📌 중급 1편 (다양한 기능) INDEX.md",
+    "0. Lovely Box/Brain Map.canvas",
     "1. Projects/2) Spring/HTTP Web Basic/e) HTTP 메서드 활용.md",
     "1. Projects/2) Spring/HTTP Web Basic/d) HTTP 메서드.md",
-    "1. Projects/2) Spring/HTTP Web Basic/HTTP Web Basic INDEX.md",
     "1. Projects/2) Spring/HTTP Web Basic/c) HTTP 기본.md",
-    "0. Lovely Box/Brain Map.canvas",
     "4. Archive/attachedFiles/Pasted image 20241120011642.png",
     "4. Archive/attachedFiles/Pasted image 20241120011332.png",
     "4. Archive/attachedFiles/Pasted image 20241120002646.png",
@@ -327,20 +219,18 @@
     "0. Lovely Box/2) Index - DataBase.md",
     "0. Lovely Box/1) Index - Java.md",
     "Excalidraw/java-memory.excalidraw.md",
-    "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/기본편 (스프링) INDEX.md",
+    "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/📌 기본편 (스프링) INDEX.md",
     "2. Area/1) Java/1) Java 객체지향/h) 다형성 활용.md",
     "Excalidraw/Untitled.md",
     "Excalidraw/Drawing 2024-11-19 21.30.26.excalidraw.md",
     "2. Area/1) Java/1) Java 객체지향/기본편 (객체지향) INDEX.md",
     "3. Resource/Dev_Questions/이력서, 어떻게 쓸까?.md",
     "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/불변 객체.md",
-    "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/중급 1편 (다양한 기능) INDEX.md",
     "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/Object 클래스.md",
     "2. Area/1) Java/1) Java 객체지향/g) 다형성.md",
     "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/스프링 핵심 원리.md",
     "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/빈 생명주기 콜백.md",
     "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/의존관계 자동 주입.md",
-    "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/컴포넌트 스캔.md",
     "Excalidraw",
     "3. Resource/Dev_Questions",
     "1. Projects/1) Java",

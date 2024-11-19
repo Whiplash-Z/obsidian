@@ -2,10 +2,10 @@
 	"nodes":[
 		{"id":"28d209ea8b499c3a","type":"group","x":-2680,"y":320,"width":2474,"height":3620,"color":"4","label":"Spring"},
 		{"id":"672837bb49e9556e","type":"group","x":-2680,"y":-2614,"width":3100,"height":1514,"color":"2","label":"자바"},
-		{"id":"22e09a2fd2b83785","type":"file","file":"1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/중급 1편 (다양한 기능) INDEX.md","x":-1160,"y":-2594,"width":1560,"height":1474},
+		{"id":"22e09a2fd2b83785","type":"file","file":"1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/📌 중급 1편 (다양한 기능) INDEX.md","x":-1160,"y":-2594,"width":1560,"height":1474},
 		{"id":"4f4454962021c304","type":"file","file":"2. Area/1) Java/1) Java 객체지향/기본편 (객체지향) INDEX.md","x":-2660,"y":-2594,"width":1160,"height":1154},
-		{"id":"44808e6ea550c81d","type":"file","file":"1. Projects/2) Spring/HTTP Web Basic/HTTP Web Basic INDEX.md","x":-1100,"y":340,"width":874,"height":2080},
-		{"id":"186871b0414bb635","type":"file","file":"2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/기본편 (스프링) INDEX.md","x":-2660,"y":340,"width":1340,"height":3580}
+		{"id":"44808e6ea550c81d","type":"file","file":"1. Projects/2) Spring/HTTP Web Basic/📌 HTTP Web Basic INDEX.md","x":-1100,"y":340,"width":874,"height":2080},
+		{"id":"186871b0414bb635","type":"file","file":"2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/📌 기본편 (스프링) INDEX.md","x":-2660,"y":340,"width":1340,"height":3580}
 	],
 	"edges":[
 		{"id":"abbbdcc4f482c8cc","fromNode":"4f4454962021c304","fromSide":"right","toNode":"22e09a2fd2b83785","toSide":"left"},
