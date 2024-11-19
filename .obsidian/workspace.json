@@ -4,22 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "15234460dad22009",
+        "id": "82c899e05cf3a485",
         "type": "tabs",
         "children": [
           {
-            "id": "e1d20ea945f94f09",
+            "id": "80ce7e79d81a4eb0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/2) Spring/a) 인터넷 네트워크.md",
+                "file": "1. Projects/2) Spring/HTTP Web Basic/HTTP Web Basic INDEX.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "a) 인터넷 네트워크"
+              "title": "HTTP Web Basic INDEX"
+            }
+          },
+          {
+            "id": "c2923272e3c55a50",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "0. Lovely Box/Brain Map.canvas",
+                "viewState": {
+                  "x": -820.0795178520045,
+                  "y": 2155.56927133475,
+                  "zoom": -1.6563309752747382
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Brain Map"
             }
           }
         ]
@@ -194,7 +211,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "1. Projects/2) Spring/HTTP Web Basic INDEX.md",
+                    "file": "1. Projects/2) Spring/HTTP Web Basic/HTTP Web Basic INDEX.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
@@ -213,30 +230,76 @@
         "height": 1415,
         "maximize": false,
         "zoom": 0.5
+      },
+      {
+        "id": "96c6fe0f06bf3b4a",
+        "type": "window",
+        "children": [
+          {
+            "id": "e1b89a14136d33fb",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d16bd36f0d7fe47a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "1. Projects/2) Spring/HTTP Web Basic/b) URI와 웹 브라우저 요청 흐름.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "b) URI와 웹 브라우저 요청 흐름"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 25,
+        "width": 1280,
+        "height": 1415,
+        "maximize": false,
+        "zoom": 0.5
       }
     ]
   },
-  "active": "14a661f18329c2e4",
+  "active": "80ce7e79d81a4eb0",
   "lastOpenFiles": [
-    "1. Projects/2) Spring/a) 인터넷 네트워크.md",
-    "4. Archive/attachedFiles/Pasted image 20241119210419.png",
-    "1. Projects/2) Spring/HTTP Web Basic INDEX.md",
-    "4. Archive/attachedFiles/Pasted image 20241119210318.png",
-    "4. Archive/attachedFiles/Pasted image 20241119204350.png",
-    "4. Archive/attachedFiles/Pasted image 20241119204348.png",
-    "4. Archive/attachedFiles/Pasted image 20241119202536.png",
-    "4. Archive/attachedFiles/Pasted image 20241119202511.png",
-    "4. Archive/attachedFiles/Pasted image 20241119202145.png",
-    "4. Archive/attachedFiles/Pasted image 20241119201758.png",
-    "4. Archive/attachedFiles/Pasted image 20241119201614.png",
-    "4. Archive/attachedFiles/Pasted image 20241119201314.png",
+    "1. Projects/2) Spring/HTTP Web Basic/HTTP Web Basic INDEX.md",
+    "1. Projects/2) Spring/HTTP Web Basic/c) HTTP 기본.md",
+    "1. Projects/2) Spring/HTTP Web Basic/b) URI와 웹 브라우저 요청 흐름.md",
+    "4. Archive/attachedFiles/Pasted image 20241119231725.png",
+    "4. Archive/attachedFiles/Pasted image 20241119231716.png",
+    "4. Archive/attachedFiles/Pasted image 20241119231708.png",
+    "4. Archive/attachedFiles/Pasted image 20241119231658.png",
+    "4. Archive/attachedFiles/Pasted image 20241119231622.png",
+    "4. Archive/attachedFiles/Pasted image 20241119231608.png",
+    "4. Archive/attachedFiles/Pasted image 20241119231555.png",
+    "4. Archive/attachedFiles/Pasted image 20241119231544.png",
+    "4. Archive/attachedFiles/Pasted image 20241119231530.png",
+    "4. Archive/attachedFiles/Pasted image 20241119222650.png",
+    "0. Lovely Box/Brain Map.canvas",
+    "1. Projects/2) Spring/HTTP Web Basic/a) 인터넷 네트워크.md",
+    "1. Projects/2) Spring/HTTP Web Basic",
     "0. Lovely Box/할 일.md",
+    "0. Lovely Box/Callout List.md",
+    "0. Lovely Box/3) Index - Infra.md",
+    "0. Lovely Box/2) Index - DataBase.md",
+    "0. Lovely Box/1) Index - Java.md",
+    "Excalidraw/java-memory.excalidraw.md",
+    "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/기본편 (스프링) INDEX.md",
+    "2. Area/1) Java/1) Java 객체지향/h) 다형성 활용.md",
+    "Excalidraw/Untitled.md",
+    "Excalidraw/Drawing 2024-11-19 21.30.26.excalidraw.md",
     "2. Area/1) Java/1) Java 객체지향/기본편 (객체지향) INDEX.md",
     "3. Resource/Dev_Questions/이력서, 어떻게 쓸까?.md",
     "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/불변 객체.md",
     "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/중급 1편 (다양한 기능) INDEX.md",
     "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/Object 클래스.md",
-    "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/기본편 (스프링) INDEX.md",
     "2. Area/1) Java/1) Java 객체지향/g) 다형성.md",
     "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/스프링 핵심 원리.md",
     "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/빈 생명주기 콜백.md",
@@ -244,15 +307,6 @@
     "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/컴포넌트 스캔.md",
     "3. Resource/Dev_Questions/@Component와 @ComponentScan이 스프링 빈을 생성하고 의존성을 관리하는 방식.md",
     "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/싱글톤 컨테이너.md",
-    "3. Resource/Dev_Questions/자바 바이트코드.md",
-    "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/객체 지향 설계와 스프링.md",
-    "2. Area/1) Java/1) Java 객체지향/e) 자바 메모리 구조와 static.md",
-    "2. Area/지원하고 싶은 회사.md",
-    "0. Lovely Box/3) Index - Infra.md",
-    "0. Lovely Box/2) Index - DataBase.md",
-    "0. Lovely Box/1) Index - Java.md",
-    "3. Resource/Dev_Questions/칸반.md",
-    "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/OCP, DIP 원칙을 위배 예제.md",
     "Excalidraw",
     "3. Resource/Dev_Questions",
     "1. Projects/1) Java",
@@ -262,7 +316,6 @@
     "Spring",
     "2. Area/1) Java",
     "Untitled.canvas",
-    "4. 연간",
-    "3. 월간"
+    "4. 연간"
   ]
 }
