@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/기본편 (스프링) INDEX.md",
+                "file": "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/불변 객체.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "기본편 (스프링) INDEX"
+              "title": "불변 객체"
             }
           },
           {
@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. Lovely Box/할 일.md",
+                "file": "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/중급 1편 (다양한 기능) INDEX.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "할 일"
+              "title": "중급 1편 (다양한 기능) INDEX"
             }
           }
         ]
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5026054382324
+    "width": 321.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "202c84756aa6c013",
@@ -193,28 +194,32 @@
   },
   "active": "988b947ef1bc7be4",
   "lastOpenFiles": [
+    "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/중급 1편 (다양한 기능) INDEX.md",
+    "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/불변 객체.md",
+    "4. Archive/attachedFiles/Pasted image 20241119165011.png",
+    "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/Object 클래스.md",
+    "4. Archive/attachedFiles/Pasted image 20241119151646.png",
+    "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/기본편 (스프링) INDEX.md",
+    "4. Archive/attachedFiles/Pasted image 20241119144751.png",
+    "4. Archive/attachedFiles/Pasted image 20241119144540.png",
+    "4. Archive/attachedFiles/Pasted image 20241119143854.png",
+    "4. Archive/attachedFiles/Pasted image 20241119142934.png",
+    "0. Lovely Box/할 일.md",
+    "1. Projects/1) Java/1) Java 객체지향/기본편 (객체지향) INDEX.md",
+    "1. Projects/1) Java/1) Java 객체지향/g) 다형성.md",
+    "4. Archive/attachedFiles/Pasted image 20241119142011.png",
+    "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/스프링 핵심 원리.md",
     "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/빈 생명주기 콜백.md",
     "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/의존관계 자동 주입.md",
     "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/컴포넌트 스캔.md",
-    "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/기본편 (스프링) INDEX.md",
-    "0. Lovely Box/할 일.md",
     "4. Archive/attachedFiles/Pasted image 20241118195403.png",
     "4. Archive/attachedFiles/Pasted image 20241118195213.png",
     "4. Archive/attachedFiles/Pasted image 20241118195125.png",
     "3. Resource/Dev_Questions/@Component와 @ComponentScan이 스프링 빈을 생성하고 의존성을 관리하는 방식.md",
-    "4. Archive/attachedFiles/Pasted image 20241118145608.png",
-    "4. Archive/attachedFiles/Pasted image 20241118145455.png",
-    "4. Archive/attachedFiles/Pasted image 20241118145337.png",
     "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/싱글톤 컨테이너.md",
     "3. Resource/Dev_Questions/자바 바이트코드.md",
     "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/객체 지향 설계와 스프링.md",
-    "1. Projects/2) Spring/2)스프링 핵심 원리 - 기본편/스프링 핵심 원리.md",
-    "4. Archive/attachedFiles/Pasted image 20241118114714.png",
-    "4. Archive/attachedFiles/Pasted image 20241118032403.png",
-    "4. Archive/attachedFiles/Pasted image 20241118025230.png",
-    "1. Projects/1) Java/1) Java 객체지향/기본편 (객체지향) INDEX.md",
     "1. Projects/1) Java/1) Java 객체지향/e) 자바 메모리 구조와 static.md",
-    "4. Archive/attachedFiles/Pasted image 20241118020328.png",
     "2. Area/지원하고 싶은 회사.md",
     "0. Lovely Box/3) Index - Infra.md",
     "0. Lovely Box/2) Index - DataBase.md",
@@ -224,11 +229,6 @@
     "3. Resource/Dev_Questions/이력서, 어떻게 쓸까?.md",
     "2. Area/만들어보고 싶은 프로젝트.md",
     "1. Projects/1) Java/1) Java 객체지향/a)자바의 객체지향 언어를 사용하는 이유.md",
-    "Excalidraw/java-memory.excalidraw.md",
-    "3. Resource/Redis.md",
-    "3. Resource/Dev_Questions/도메인 모델이란?.md",
-    "1. Projects/1) Java/1) Java 객체지향/h) 다형성 활용.md",
-    "3. Resource/Dev_Questions/PWA란?.md",
     "Excalidraw",
     "3. Resource/Dev_Questions",
     "1. Projects/1) Java",
