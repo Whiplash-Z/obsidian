@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/2) Spring/HTTP Web Basic/f) HTTP 헤더.md",
+                "file": "3. Resource/Dev_Questions/내 연봉을 결정 짓는 사람이 누구인지 알자!.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "f) HTTP 헤더"
+              "title": "내 연봉을 결정 짓는 사람이 누구인지 알자!"
             }
           }
         ]
@@ -178,15 +178,16 @@
   },
   "active": "17a96fb1c98a9cce",
   "lastOpenFiles": [
-    "1. Projects/2) Spring/HTTP Web Basic/📌 HTTP Web Basic INDEX.md",
+    "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/📌 중급 1편 (다양한 기능) INDEX.md",
+    "3. Resource/Dev_Questions/내 연봉을 결정 짓는 사람이 누구인지 알자!.md",
     "1. Projects/2) Spring/HTTP Web Basic/f) HTTP 헤더.md",
+    "1. Projects/2) Spring/HTTP Web Basic/📌 HTTP Web Basic INDEX.md",
     "2. Area/1) Java/1) Java 객체지향/📌 기본편 (객체지향) INDEX.md",
     "2. Area/1) Java/1) Java 객체지향/f) 상속.md",
     "2. Area/1) Java/1) Java 객체지향/b)클래스와 데이터.md",
     "2. Area/1) Java/1) Java 객체지향/a)자바의 객체지향 언어를 사용하는 이유.md",
     "0. Lovely Box/🔭 Brain Map.canvas",
     "2. Area/1) Java/1) Java 객체지향/c) 기본형과 참조형.md",
-    "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/📌 중급 1편 (다양한 기능) INDEX.md",
     "4. Archive/attachedFiles/Pasted image 20241120195455.png",
     "4. Archive/attachedFiles/Pasted image 20241120195341.png",
     "4. Archive/attachedFiles/Pasted image 20241120195220.png",
@@ -215,7 +216,6 @@
     "2. Area/1) Java/1) Java 객체지향/h) 다형성 활용.md",
     "Excalidraw/Untitled.md",
     "Excalidraw/Drawing 2024-11-19 21.30.26.excalidraw.md",
-    "3. Resource/Dev_Questions/이력서, 어떻게 쓸까?.md",
     "Excalidraw",
     "3. Resource/Dev_Questions",
     "1. Projects/1) Java",
