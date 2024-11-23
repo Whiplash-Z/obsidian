@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/2) Spring/Spring MVC Basic/스프링 MVC 1.md",
+                "file": "3. Resource/Dev_Questions/GracefulShutdown이란?.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "스프링 MVC 1"
+              "title": "GracefulShutdown이란?"
             }
           }
         ]
@@ -178,8 +178,9 @@
   },
   "active": "9125e8896a9389db",
   "lastOpenFiles": [
-    "1. Projects/2) Spring/Spring MVC Basic/📌 Spring MVC 1편 INDEX.md",
     "1. Projects/2) Spring/Spring MVC Basic/스프링 MVC 1.md",
+    "3. Resource/Dev_Questions/GracefulShutdown이란?.md",
+    "1. Projects/2) Spring/Spring MVC Basic/📌 Spring MVC 1편 INDEX.md",
     "4. Archive/attachedFiles/Pasted image 20241123000918.png",
     "4. Archive/attachedFiles/Pasted image 20241123000642.png",
     "4. Archive/attachedFiles/Pasted image 20241122231348.png",
