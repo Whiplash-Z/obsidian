@@ -48,3 +48,56 @@ public class StringEqualsMain1 {
 ## String은 불변 객체
 >[!Note] String은 불변 객체이다. 따라서 생성 이후에 절대로 내부의 문자열 값을 변경할 수 없다.
 
+![[Pasted image 20241124000032.png]]
+```java
+public class StringImmutable2 {  
+    public static void main(String[] args) {  
+        String str1 = "hello";  
+        String str2 = str1.concat(" java");  
+        System.out.println("str1 = " + str1);  
+        System.out.println("str = " + str2);  
+    }  
+}
+```
+```
+str1 = hello
+str = hello java
+```
+-> String은 불변객체이므로 변경이 필요한 경우 기존 값을 변경하지 않고, 새로운 결과를 만들어서 반환한다.
+
+## StringBuilder 가변 String
+>[!Warning] 불변인 String 클래스의 단점
+>- 문자를 더하거나 변경할 때 마다 **계속해서 새로운 객체를 생성해야 한다.**
+>- 문자를 자주 더하거나 변경해야 하는 상황이라면 더 많은 String 객체를 만들고,
+>  GC해야 한다.
+>- 결과적으로 컴퓨터의 CPU, 메모리를 자원을 더 많이 사용하게 된다.
+>- 문자열의 크기가 클수록, 문자열을 더 자주 변경할수록 시스템의 자원을
+>  더 많이 소모한다.
+
+>[!Success] StringBuilder는 가변적이다.
+>- 하나의 StringBuilder 객체 안에서 문자열을 추가, 삭제, 수정할 수 있고,
+>  이때마다 새로운 객체를 생성하지 않는다.
+>- 이로인해 메모리 사용을 줄이고 성능을 향상시킬 수 있다.
+>- 단, 사이드 이펙트를 주의해야 한다.
+>- StringBuilder는 보통 문자열을 변경하는 동안만 사용하다가 문자열 변경이 끝나면 안전한(불변) String으로 변경하는 것이 좋다.
+
+```java
+public class LoopStringBuilderMain {  
+  
+    public static void main(String[] args) {  
+        long startTime = System.currentTimeMillis();  
+  
+        StringBuilder sb = new StringBuilder();  
+        for (int i = 0; i < 100000; i++) {  
+            sb.append("Hello Java");  
+        }        long endTime = System.currentTimeMillis();  
+  
+        String result = sb.toString();  
+        System.out.println("result = " + result);  
+        System.out.println("time = " + (endTime - startTime) + "ms");  
+    }  
+}
+```
+
+
+
