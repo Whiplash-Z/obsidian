@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/String 클래스.md",
+                "file": "2. Area/1) Java/Thread/고급 1편 Thread.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "String 클래스"
+              "title": "고급 1편 Thread"
             }
           }
         ]
@@ -178,6 +178,9 @@
   },
   "active": "4ff8e1d68822653d",
   "lastOpenFiles": [
+    "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/String 클래스.md",
+    "2. Area/1) Java/Thread/고급 1편 Thread.md",
+    "2. Area/1) Java/Thread",
     "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/Object 클래스.md",
     "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/중첩 클래스, 내부 클래스.md",
     "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/예외 처리.md",
@@ -194,7 +197,6 @@
     "4. Archive/attachedFiles/Pasted image 20241124182324.png",
     "4. Archive/attachedFiles/Pasted image 20241124182039.png",
     "4. Archive/attachedFiles/Pasted image 20241124144700.png",
-    "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/String 클래스.md",
     "1. Projects/2) Spring/Spring MVC Basic/스프링 MVC 1.md",
     "3. Resource/Dev_Questions/@ModelAttribute와 @RequestBody의 차이점.md",
     "3. Resource/Dev_Questions/GracefulShutdown이란?.md",
@@ -215,7 +217,6 @@
     "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/스프링 핵심 원리.md",
     "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/빈 생명주기 콜백.md",
     "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/객체 지향 설계와 스프링.md",
-    "3. Resource/Dev_Questions/내 연봉을 결정 짓는 사람이 누구인지 알자!.md",
     "2. Area/2) Spring/HTTP Web Basic",
     "Excalidraw",
     "3. Resource/Dev_Questions",
@@ -224,7 +225,6 @@
     "1. Projects/2) Spring/1)스프링 입문 - 코드로 배우는 스프링 부트",
     "1. Projects/2) Spring",
     "Spring",
-    "2. Area/1) Java",
     "Untitled.canvas"
   ]
 }
