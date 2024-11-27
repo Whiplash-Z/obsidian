@@ -4,25 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "fea00c26e5a1bae1",
+        "id": "43f070c999bbc8b2",
         "type": "tabs",
         "children": [
           {
-            "id": "4ff8e1d68822653d",
+            "id": "76299ea13a2e282a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "de6e8a64024db3e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Area/1) Java/Thread/고급 1편 Thread.md",
+                "file": "주문 현황.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "고급 1편 Thread"
+              "title": "주문 현황"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,10 +187,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4ff8e1d68822653d",
+  "active": "de6e8a64024db3e3",
   "lastOpenFiles": [
-    "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/String 클래스.md",
+    "주문 현황.md",
+    "0. Lovely Box/🔭 Brain Map.canvas",
+    "0. Lovely Box/Callout List.md",
     "2. Area/1) Java/Thread/고급 1편 Thread.md",
+    "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/String 클래스.md",
     "2. Area/1) Java/Thread",
     "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/Object 클래스.md",
     "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/중첩 클래스, 내부 클래스.md",
@@ -204,7 +218,6 @@
     "2. Area/승준 & 빠쿤 질문.md",
     "1. Projects/2) Spring/Spring MVC Basic",
     "0. Lovely Box/훈성 커피챗.md",
-    "0. Lovely Box/🔭 Brain Map.canvas",
     "2. Area/1) Java/1) Java 객체지향/📌 기본편 (객체지향) INDEX.md",
     "2. Area/1) Java/1) Java 객체지향/f) 상속.md",
     "2. Area/1) Java/1) Java 객체지향/g) 다형성.md",
@@ -215,8 +228,6 @@
     "2. Area/1) Java/1) Java 객체지향/a)자바의 객체지향 언어를 사용하는 이유.md",
     "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/📌 기본편 (스프링) INDEX.md",
     "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/스프링 핵심 원리.md",
-    "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/빈 생명주기 콜백.md",
-    "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/객체 지향 설계와 스프링.md",
     "2. Area/2) Spring/HTTP Web Basic",
     "Excalidraw",
     "3. Resource/Dev_Questions",
