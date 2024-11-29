@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/2) Spring/Spring MVC 2/Validation.md",
+                "file": "3. Resource/Dev_Questions/JWT.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Validation"
+              "title": "JWT"
             }
           }
         ]
@@ -178,8 +178,9 @@
   },
   "active": "76299ea13a2e282a",
   "lastOpenFiles": [
-    "1. Projects/2) Spring/Spring MVC Basic/스프링 MVC 1.md",
     "1. Projects/2) Spring/Spring MVC 2/Validation.md",
+    "3. Resource/Dev_Questions/JWT.md",
+    "1. Projects/2) Spring/Spring MVC Basic/스프링 MVC 1.md",
     "1. Projects/2) Spring/Spring MVC 2",
     "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/불변 객체.md",
     "주문 현황.md",
@@ -217,7 +218,6 @@
     "2. Area/1) Java/1) Java 객체지향/c) 기본형과 참조형.md",
     "2. Area/1) Java/1) Java 객체지향/b)클래스와 데이터.md",
     "2. Area/1) Java/1) Java 객체지향/a)자바의 객체지향 언어를 사용하는 이유.md",
-    "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/📌 기본편 (스프링) INDEX.md",
     "2. Area/2) Spring/HTTP Web Basic",
     "Excalidraw",
     "3. Resource/Dev_Questions",
