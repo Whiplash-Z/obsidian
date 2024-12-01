@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"bf91687ff23c34d3","type":"group","x":-280,"y":-280,"width":1050,"height":360,"label":"Session"},
+		{"id":"12751185426d1552","x":-280,"y":180,"width":990,"height":340,"type":"group","label":"JWT"},
+		{"id":"0e728a49f5e0fd47","type":"text","text":"서버","x":120,"y":-260,"width":250,"height":60},
+		{"id":"ae8fd7947d0b09f3","type":"text","text":"서버","x":120,"y":-140,"width":250,"height":60},
+		{"id":"b07757068af7c634","type":"text","text":"서버","x":120,"y":0,"width":250,"height":60},
+		{"id":"7e24a1c8f5d7a6c2","type":"text","text":"클라이언트","x":-260,"y":-140,"width":250,"height":60},
+		{"id":"55476c300382fee2","type":"text","text":"DB","x":500,"y":-140,"width":250,"height":60},
+		{"id":"c4c2c63c8b4bec50","type":"text","text":"","x":-240,"y":-640,"width":250,"height":60},
+		{"id":"991ab6acc7cd4c70","x":120,"y":200,"width":250,"height":60,"type":"text","text":"서버"},
+		{"id":"3b538b87ae0d6545","type":"text","text":"서버","x":120,"y":320,"width":250,"height":60},
+		{"id":"e7102acffc3cfa3f","type":"text","text":"서버","x":120,"y":440,"width":250,"height":60},
+		{"id":"f320001661a1865d","x":-260,"y":320,"width":250,"height":60,"type":"text","text":"클라이언트"},
+		{"id":"a782f3955c216944","x":400,"y":320,"width":290,"height":60,"type":"text","text":"DB(RefreshToken 재발급 시에만)"}
+	],
+	"edges":[
+		{"id":"1ba86a9f4ea5cb97","fromNode":"7e24a1c8f5d7a6c2","fromSide":"right","toNode":"0e728a49f5e0fd47","toSide":"left"},
+		{"id":"0c22fb566e5b23ec","fromNode":"7e24a1c8f5d7a6c2","fromSide":"right","toNode":"ae8fd7947d0b09f3","toSide":"left"},
+		{"id":"02a7606d04a51922","fromNode":"7e24a1c8f5d7a6c2","fromSide":"right","toNode":"b07757068af7c634","toSide":"left"},
+		{"id":"0a123b5b9044d427","fromNode":"0e728a49f5e0fd47","fromSide":"right","toNode":"55476c300382fee2","toSide":"left"},
+		{"id":"283cc8d3743b7773","fromNode":"ae8fd7947d0b09f3","fromSide":"right","toNode":"55476c300382fee2","toSide":"left"},
+		{"id":"5cdd28c893ab04c1","fromNode":"b07757068af7c634","fromSide":"right","toNode":"55476c300382fee2","toSide":"left"},
+		{"id":"6dcdb5850a0c45ec","fromNode":"f320001661a1865d","fromSide":"right","toNode":"991ab6acc7cd4c70","toSide":"left","fromEnd":"arrow","label":"2n + 1"},
+		{"id":"af7af28e915de197","fromNode":"f320001661a1865d","fromSide":"right","toNode":"3b538b87ae0d6545","toSide":"left","fromEnd":"arrow","label":"고가용성"},
+		{"id":"ca0bc1ec11d1d01b","fromNode":"f320001661a1865d","fromSide":"right","toNode":"e7102acffc3cfa3f","toSide":"left","fromEnd":"arrow"}
+	]
+}
