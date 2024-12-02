@@ -4,24 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "43f070c999bbc8b2",
+        "id": "a80393fd050b8085",
         "type": "tabs",
         "children": [
           {
-            "id": "76299ea13a2e282a",
+            "id": "6d8944a26838e09b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 259.81644363403325,
-                  "y": 203.05294799804696,
-                  "zoom": 0
-                }
+                "file": "1. Projects/1) Java/4) 멀티스레드와 동시성/프로세스와 스레드.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "프로세스와 스레드"
             }
           }
         ]
@@ -179,26 +177,31 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "76299ea13a2e282a",
+  "active": "6d8944a26838e09b",
   "lastOpenFiles": [
+    "4. Archive/attachedFiles/Pasted image 20241202112605.png",
+    "4. Archive/attachedFiles/Pasted image 20241202112555.png",
+    "4. Archive/attachedFiles/Pasted image 20241202112204.png",
+    "1. Projects/1) Java/4) 멀티스레드와 동시성/프로세스와 스레드.md",
+    "1. Projects/1) Java/4) 멀티스레드와 동시성",
+    "JWT & Session.canvas",
     "1. Projects/2) Spring/Spring MVC 2/Thymeleaf.md",
-    "Untitled.canvas",
     "3. Resource/Dev_Questions/JWT.md",
     "1. Projects/2) Spring/Spring MVC 2/Validation.md",
     "1. Projects/2) Spring/Spring MVC Basic/스프링 MVC 1.md",
     "1. Projects/2) Spring/Spring MVC 2",
-    "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/불변 객체.md",
+    "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/불변 객체.md",
     "주문 현황.md",
     "0. Lovely Box/🔭 Brain Map.canvas",
     "0. Lovely Box/Callout List.md",
     "2. Area/1) Java/Thread/고급 1편 Thread.md",
-    "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/String 클래스.md",
+    "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/String 클래스.md",
     "2. Area/1) Java/Thread",
-    "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/Object 클래스.md",
-    "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/중첩 클래스, 내부 클래스.md",
-    "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/예외 처리.md",
-    "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/열거형(ENUM).md",
-    "1. Projects/1) Java/2) 자바가 제공하는 다양한 기능/📌 중급 1편 (다양한 기능) INDEX.md",
+    "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/Object 클래스.md",
+    "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/중첩 클래스, 내부 클래스.md",
+    "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/예외 처리.md",
+    "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/열거형(ENUM).md",
+    "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/📌 중급 1편 (다양한 기능) INDEX.md",
     "4. Archive/attachedFiles/Pasted image 20241124212158.png",
     "4. Archive/attachedFiles/Pasted image 20241124211117.png",
     "4. Archive/attachedFiles/Pasted image 20241124210724.png",
@@ -207,8 +210,6 @@
     "4. Archive/attachedFiles/Pasted image 20241124182801.png",
     "4. Archive/attachedFiles/Pasted image 20241124182430.png",
     "4. Archive/attachedFiles/Pasted image 20241124182324.png",
-    "4. Archive/attachedFiles/Pasted image 20241124182039.png",
-    "4. Archive/attachedFiles/Pasted image 20241124144700.png",
     "3. Resource/Dev_Questions/@ModelAttribute와 @RequestBody의 차이점.md",
     "3. Resource/Dev_Questions/GracefulShutdown이란?.md",
     "1. Projects/2) Spring/Spring MVC Basic/📌 Spring MVC 1편 INDEX.md",
@@ -220,13 +221,11 @@
     "2. Area/1) Java/1) Java 객체지향/g) 다형성.md",
     "2. Area/1) Java/1) Java 객체지향/e) 자바 메모리 구조와 static.md",
     "2. Area/1) Java/1) Java 객체지향/d) 객체 지향 프로그래밍.md",
-    "2. Area/1) Java/1) Java 객체지향/c) 기본형과 참조형.md",
     "2. Area/2) Spring/HTTP Web Basic",
     "Excalidraw",
     "3. Resource/Dev_Questions",
     "1. Projects/1) Java",
     "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편",
-    "1. Projects/2) Spring/1)스프링 입문 - 코드로 배우는 스프링 부트",
-    "1. Projects/2) Spring"
+    "1. Projects/2) Spring/1)스프링 입문 - 코드로 배우는 스프링 부트"
   ]
 }
