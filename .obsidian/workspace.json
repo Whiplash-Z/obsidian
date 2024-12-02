@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7a769464ec178096",
+        "id": "9a15166a314fd02a",
         "type": "tabs",
         "children": [
           {
-            "id": "5c7164c04120c962",
+            "id": "502d54d088027610",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/1) Java/4) 멀티스레드와 동시성/📌 멀티스레드와 동시성 INDEX.md",
+                "file": "1. Projects/1) Java/4) 멀티스레드와 동시성/스레드의 생성과 실행.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📌 멀티스레드와 동시성 INDEX"
+              "title": "스레드의 생성과 실행"
             }
           }
         ]
@@ -182,53 +182,57 @@
     "type": "floating",
     "children": [
       {
-        "id": "852385d6e672ff68",
+        "id": "73d446d466acbcf9",
         "type": "window",
         "children": [
           {
-            "id": "56ec795e1a88f11d",
+            "id": "9f8be750ca9d3105",
             "type": "tabs",
             "children": [
               {
-                "id": "6d8944a26838e09b",
+                "id": "ad11b3d26515d27a",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "1. Projects/1) Java/4) 멀티스레드와 동시성/프로세스와 스레드.md",
+                    "file": "1. Projects/1) Java/4) 멀티스레드와 동시성/📌 멀티스레드와 동시성 INDEX.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "프로세스와 스레드"
+                  "title": "📌 멀티스레드와 동시성 INDEX"
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 448,
-        "y": 38,
+        "x": 0,
+        "y": 25,
         "width": 1280,
-        "height": 1079,
+        "height": 1415,
         "maximize": false,
         "zoom": 0.5
       }
     ]
   },
-  "active": "6d8944a26838e09b",
+  "active": "ad11b3d26515d27a",
   "lastOpenFiles": [
+    "1. Projects/1) Java/4) 멀티스레드와 동시성/스레드의 생성과 실행.md",
+    "4. Archive/attachedFiles/Pasted image 20241202230609.png",
     "1. Projects/1) Java/4) 멀티스레드와 동시성/📌 멀티스레드와 동시성 INDEX.md",
     "1. Projects/1) Java/4) 멀티스레드와 동시성/프로세스와 스레드.md",
+    "2. Area/1) Java/Thread/고급 1편 Thread.md",
+    "4. Archive/attachedFiles/Pasted image 20241202215823.png",
+    "4. Archive/attachedFiles/Pasted image 20241202215645.png",
+    "4. Archive/attachedFiles/Pasted image 20241202215617.png",
+    "4. Archive/attachedFiles/Pasted image 20241202215616.png",
+    "4. Archive/attachedFiles/Pasted image 20241202214938.png",
+    "4. Archive/attachedFiles/Pasted image 20241202214409.png",
+    "4. Archive/attachedFiles/Pasted image 20241202214357.png",
     "4. Archive/attachedFiles/Pasted image 20241202134554.png",
     "4. Archive/attachedFiles/Pasted image 20241202134534.png",
-    "4. Archive/attachedFiles/Pasted image 20241202134455.png",
-    "4. Archive/attachedFiles/Pasted image 20241202134420.png",
-    "4. Archive/attachedFiles/Pasted image 20241202115000.png",
-    "4. Archive/attachedFiles/Pasted image 20241202112605.png",
-    "4. Archive/attachedFiles/Pasted image 20241202112555.png",
-    "4. Archive/attachedFiles/Pasted image 20241202112204.png",
     "1. Projects/1) Java/4) 멀티스레드와 동시성",
     "JWT & Session.canvas",
     "1. Projects/2) Spring/Spring MVC 2/Thymeleaf.md",
@@ -240,7 +244,6 @@
     "주문 현황.md",
     "0. Lovely Box/🔭 Brain Map.canvas",
     "0. Lovely Box/Callout List.md",
-    "2. Area/1) Java/Thread/고급 1편 Thread.md",
     "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/String 클래스.md",
     "2. Area/1) Java/Thread",
     "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/Object 클래스.md",
@@ -248,8 +251,6 @@
     "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/예외 처리.md",
     "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/열거형(ENUM).md",
     "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/📌 중급 1편 (다양한 기능) INDEX.md",
-    "4. Archive/attachedFiles/Pasted image 20241124212158.png",
-    "4. Archive/attachedFiles/Pasted image 20241124211117.png",
     "3. Resource/Dev_Questions/@ModelAttribute와 @RequestBody의 차이점.md",
     "3. Resource/Dev_Questions/GracefulShutdown이란?.md",
     "1. Projects/2) Spring/Spring MVC Basic/📌 Spring MVC 1편 INDEX.md",
@@ -259,7 +260,6 @@
     "2. Area/1) Java/1) Java 객체지향/📌 기본편 (객체지향) INDEX.md",
     "2. Area/1) Java/1) Java 객체지향/f) 상속.md",
     "2. Area/1) Java/1) Java 객체지향/g) 다형성.md",
-    "2. Area/1) Java/1) Java 객체지향/e) 자바 메모리 구조와 static.md",
     "2. Area/2) Spring/HTTP Web Basic",
     "Excalidraw",
     "3. Resource/Dev_Questions",
