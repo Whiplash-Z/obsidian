@@ -41,6 +41,14 @@ ssh -i "ec2-server-key.pem" ubuntu@ec2-13-125-250-66.ap-northeast-2.compute.amaz
 [도커 공식문서 - 설치 (Ubuntu - apt)](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
 
 
+>[!Warning] 도커 명령어를 실행할 때마다 사용자 인증을 받기 번거롭다.
+
+```ssh
+ubuntu@ip-172-31-44-205:~$ docker run --name some-nginx -p 8080:80 -d nginx
+docker: permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Head "http://%2Fvar%2Frun%2Fdocker.sock/_ping": dial unix /var/run/docker.sock: connect: permission denied.
+```
+
+
 # 도커 그룹에 유저를 포함하기
 > docker 그룹 추가
 ```ssh
