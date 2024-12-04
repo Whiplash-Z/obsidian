@@ -144,3 +144,63 @@ Press CTRL+C to quit
 ➜  ~ curl localhost:5000                                                               
 Hello, Flask World!%     
 ```
+
+# GitLab을 이용한 Push 자동화
+![[Pasted image 20241204150935.png]]
+
+
+> GitLab Runner 설치
+
+[GitLab Runner Install 공식문서](https://docs.gitlab.com/runner/install/linux-manually.html)
+
+현재 나의 가상머신은 arm64를 사용하고 있기 때문에 arm64로 값을 치환한다.
+```ssh
+curl -LJO "https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/latest/deb/gitlab-runner_arm64.deb"
+```
+
+>dpkg -i 명령어로 설치 시작
+```ssh
+sudo dpkg -i gitlab-runner_arm64.deb 
+```
+
+![[Pasted image 20241204152238.png]]
+
+# GitLab Runner 실행
+![[Pasted image 20241204152834.png]]
+![[Pasted image 20241204152945.png]]
+
+![[Pasted image 20241204153316.png]]
+
+# 시스템 부팅 시 자동으로 GitLab Runner 실행하도록 설정
+
+```ssh
+➜  .gitlab-runner sudo su -
+root@ubuntu:~# cd /etc/systemd/system/
+root@ubuntu:/etc/systemd/system# vi gitlab-runner.service 
+```
+
+![[Pasted image 20241204160122.png]]
+
+
+```ssh
+➜  ~ ls -al .bash_logout
+-rw-r--r-- 1 ubuntu ubuntu 220 Mar 31  2024 .bash_logout
+```
+![[Pasted image 20241204160324.png]]
+
+> 변경된 설정 바로 적용하기
+
+```ssh
+➜  ~ sudo systemctl restart gitlab-runner
+Warning: The unit file, source configuration file or drop-ins of gitlab-runner.service changed on disk. Run 'systemctl daemon-reload' to reload units.
+```
+
+변경을 위해서는 systemctl daemon-reload 명령어를 실행하라고 하기 때문에 아래와 같이 명령어를 실행한다.
+
+```ssh
+➜  ~ sudo systemctl daemon-reload                               
+➜  ~ sudo systemctl restart gitlab-runner
+➜  ~ sudo systemctl enable gitlab-runner
+```
+
+enable을 설정하게 되면, 시스템을 시작할 때 자동으로 실행되게 해준다.
