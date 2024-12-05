@@ -166,10 +166,10 @@ sudo dpkg -i gitlab-runner_arm64.deb
 ![[Pasted image 20241204152238.png]]
 
 # GitLab Runner 실행
-![[Pasted image 20241204152834.png]]
-![[Pasted image 20241204152945.png]]
+![[Pasted image 20241204152834.png|750]]
+![[Pasted image 20241204152945.png|800]]
 
-![[Pasted image 20241204153316.png]]
+![[Pasted image 20241204153316.png|1125]]
 
 # 시스템 부팅 시 자동으로 GitLab Runner 실행하도록 설정
 
