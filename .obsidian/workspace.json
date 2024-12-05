@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. Lovely Box/질문.md",
+                "file": "1. Projects/Infra/Docker/ECS Start!.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "질문"
+              "title": "ECS Start!"
             }
           }
         ],
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5026054382324
+    "width": 321.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "202c84756aa6c013",
@@ -194,6 +195,7 @@
   },
   "active": "f1e575911678f074",
   "lastOpenFiles": [
+    "0. Lovely Box/질문.md",
     "4. Archive/attachedFiles/Pasted image 20241205132930.png",
     "1. Projects/Infra/Docker/ECS Start!.md",
     "4. Archive/attachedFiles/Pasted image 20241205111721.png",
@@ -205,10 +207,8 @@
     "4. Archive/attachedFiles/Pasted image 20241205111456.png",
     "4. Archive/attachedFiles/Pasted image 20241205110033.png",
     "4. Archive/attachedFiles/Pasted image 20241205105805.png",
-    "4. Archive/attachedFiles/Pasted image 20241205105503.png",
     "1. Projects/Infra/Docker/Docker로 Flask 웹 페이지 만들기.md",
     "1. Projects/Infra/Docker/GitLab 연동.md",
-    "0. Lovely Box/질문.md",
     "1. Projects/2) Spring/Spring MVC Basic/스프링 MVC 1.md",
     "1. Projects/1) Java/4) 멀티스레드와 동시성/📌 멀티스레드와 동시성 INDEX.md",
     "1. Projects/Infra/Docker/EC2 생성.md",

@@ -38,12 +38,6 @@
 ![[Pasted image 20241205104852.png]]
 - CREATE
 
-1. 클러스터 생성
-2. Task Definitions
-3. Cluster에 Service 생성
-4. 3에서 만든 service가 컨테이너 생성
-5. 4에서 실행될 컨테이너는 2에서 만든 Task Deifinition을 사용해서 실행
-
 
 # Cluster - Service 생성
 ![[Pasted image 20241205105137.png]]
