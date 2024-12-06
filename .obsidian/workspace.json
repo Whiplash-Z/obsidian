@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/1) Java/4) 멀티스레드와 동시성/Untitled.md",
+                "file": "1. Projects/1) Java/4) 멀티스레드와 동시성/동기화.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "동기화"
             }
           }
         ]
@@ -207,7 +207,7 @@
           }
         ],
         "direction": "vertical",
-        "x": 1280,
+        "x": 0,
         "y": 25,
         "width": 1280,
         "height": 1415,
@@ -216,29 +216,30 @@
       }
     ]
   },
-  "active": "48d552b7272386cf",
+  "active": "bf9327a9cc392c89",
   "lastOpenFiles": [
-    "1. Projects/1) Java/4) 멀티스레드와 동시성/스레드 제어와 생명 주기.md",
     "1. Projects/1) Java/4) 멀티스레드와 동시성/Untitled.md",
-    "1. Projects/1) Java/4) 멀티스레드와 동시성/volatile 메모리 가시성.md",
     "1. Projects/1) Java/4) 멀티스레드와 동시성/📌 멀티스레드와 동시성 INDEX.md",
+    "1. Projects/1) Java/4) 멀티스레드와 동시성/동기화.md",
+    "4. Archive/attachedFiles/Pasted image 20241206223044.png",
+    "4. Archive/attachedFiles/Pasted image 20241206221530.png",
+    "4. Archive/attachedFiles/Pasted image 20241206221443.png",
+    "4. Archive/attachedFiles/Pasted image 20241206221329.png",
+    "4. Archive/attachedFiles/Pasted image 20241206221311.png",
+    "4. Archive/attachedFiles/Pasted image 20241206221147.png",
+    "4. Archive/attachedFiles/Pasted image 20241206221122.png",
+    "4. Archive/attachedFiles/Pasted image 20241206220834.png",
+    "4. Archive/attachedFiles/Pasted image 20241206220708.png",
+    "4. Archive/attachedFiles/Pasted image 20241206220529.png",
+    "1. Projects/1) Java/4) 멀티스레드와 동시성/스레드 제어와 생명 주기.md",
+    "1. Projects/1) Java/4) 멀티스레드와 동시성/volatile 메모리 가시성.md",
     "1. Projects/1) Java/4) 멀티스레드와 동시성/프로세스와 스레드.md",
     "1. Projects/1) Java/4) 멀티스레드와 동시성/스레드의 생성과 실행.md",
-    "4. Archive/attachedFiles/Pasted image 20241206145336.png",
-    "4. Archive/attachedFiles/Pasted image 20241206144503.png",
-    "4. Archive/attachedFiles/Pasted image 20241206144046.png",
-    "4. Archive/attachedFiles/Pasted image 20241206143901.png",
-    "4. Archive/attachedFiles/Pasted image 20241206143644.png",
-    "4. Archive/attachedFiles/Pasted image 20241206143641.png",
-    "4. Archive/attachedFiles/Pasted image 20241206143357.png",
-    "4. Archive/attachedFiles/Pasted image 20241206143309.png",
-    "4. Archive/attachedFiles/Pasted image 20241206142237.png",
     "주문 현황.md",
     "1. Projects/2) Spring/Spring MVC 2/메시지, 국제화.md",
     "0. Lovely Box/질문.md",
     "1. Projects/2) Spring/Spring MVC Basic/스프링 MVC 1.md",
     "1. Projects/Infra/Docker/ECS Start!.md",
-    "4. Archive/attachedFiles/Pasted image 20241205132930.png",
     "1. Projects/Infra/Docker/Docker로 Flask 웹 페이지 만들기.md",
     "1. Projects/Infra/Docker/GitLab 연동.md",
     "1. Projects/Infra/Docker/EC2 생성.md",
@@ -260,7 +261,6 @@
     "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/중첩 클래스, 내부 클래스.md",
     "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/예외 처리.md",
     "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/열거형(ENUM).md",
-    "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/📌 중급 1편 (다양한 기능) INDEX.md",
     "1. Projects/2) Spring/Spring MVC Basic",
     "2. Area/2) Spring/HTTP Web Basic",
     "Excalidraw",
