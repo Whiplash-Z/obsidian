@@ -126,3 +126,84 @@
 		- 공정성
 			- 락이 돌아왔을 때, BLOCKED 상태의 **여러 스레드 중에 어떤 스레드가 락을 획득할지 알 수 없다.**
 			- 최악의 경우 특정 스레드가 너무 오랜기간 락을 획득하지 못할 수 있다.
+- concurrent.Lock
+	- `synchronized`의 단점을 해결하기 위해 `java.util.concurrent` 동시성 문제 해결 패키지 추가
+	- LockSupport: 스레드를 WAITING, TIMED_WAITING 상태로 변경 가능, 인터럽트에 반응함.
+		- 스레드를 WAITING 상태로 변경한다.
+			- WAITING 상태는 누군가 깨워주기 전까지는 계속 대기한다.
+			- CPU 실행 스케줄링에 들어가지 않는다.
+		- 기능
+			- park(): 스레드를 `WAITING` 상태로 변경
+				- 스레드를 대기 상태로 둔다. (RUNNABLE -> WAITING)
+			- parkNanos(nanos):: 스레드를 나노초 동안만 `TIMED_WAITING` 상태로 변경
+				- 지정한 나노초가 지나면 `TIMED_WAITING` 상태에서 `RUNNABLE` 상태로 변경
+			- unpark(thread): `WAITING` 상태의 대상 스레드를 `RUNNABLE` 상태로 변경
+		- Interrupt를 발생시키면 WAITING -> RUNNABLE 상태로 변경된다.
+			- BLOCKED 상태는 인터럽트가 걸려도 대기 상태에서 빠져나오지 못한다.
+				- synchronized에서 락을 획득하기 위해 대기할 때 사용된다.
+			- WAITING, TIMED_WAITING 상태는 인터럽트가 걸리면 대기 상태를 빠져나온다.
+				- WAITING, TIMED_WAITING -> Interrupt -> RUNNABLE
+				- Thread.join(), LockSupprot.park(), Object.wait()와 같은 메서드 호출 시 WAITING 상태가 된다.
+				- Thread.sleep(ms), Object.wait(long timeout), Thread.join(long millis), LockSupport.parkNanos(ns) 등과 같은 시간 제한이 있는 대기 메서드를 호출할 때 TIMED_WAITING 상태가 된다.
+	- ReentrantLock
+		- synchronized와 BLOCKED 상태를 통한 임계 영역 관리의 한계를 극복하기 위해 자바 1.5부터 Lock 인터페이스와 ReentrantLock 구현체를 제공한다.
+		- synchronized의 무한대기 문제 해결  
+		    - `void lock()`
+			    - **락을 획득**한다.
+			    - 만약 다른 스레드가 이미 락을 획득했다면, **락이 풀릴 때까지 현재 스레드는 대기**(WAITING)한다. **이 메서드는 인터럽트에 응답하지 않는다.**
+			- `void lockInterruptibly()`
+			    - 락 획득을 시도하되, **다른 스레드가 인터럽트 할 수 있도록 한다**.
+			    - 만약 다른 스레드가 이미 락을 획득했다면, 현재 스레드는 **락을 획득할 때까지 대기**(WAITING)한다.
+			    - 대기 중에 인터럽트가 발생하면 `InterruptedException`이 발생하며 락 획득을 포기한다.
+			- `boolean tryLock()`
+			    - 락 획득을 시도하고, **즉시 성공 여부를 반환**한다.
+			    - 만약 다른 스레드가 이미 락을 획득했다면 `false`를 반환하고,  
+			        그렇지 않으면 락을 획득하고 `true`를 반환한다.
+			- `boolean tryLock(long time, TimeUnit unit)`
+			    - **주어진 시간 동안 락 획득을 시도**한다.
+			    - 주어진 시간 안에 락을 획득하면 `true`를 반환한다.
+			    - 주어진 시간이 지나도 락을 획득하지 못한 경우 `false`를 반환한다.
+			    - 이 메서드는 대기 중 인터럽트가 발생하면 `InterruptedException`이 발생하며, 락 획득을 포기한다.
+			- `void unlock()`
+			    - **락을 해제**한다.
+			    - 락을 해제하면 락 획득을 **대기 중인 스레드 중 하나가 락을 획득**할 수 있게 된다.
+			    - **락을 획득한 스레드가 호출**해야 하며, 그렇지 않으면 `IllegalMonitorStateException`이 발생한다.
+			    - ex) 식당안에 있는 손님이 밥을 먹고 나간다. 식당에 자리가 하나 난다. 기다리는 손님께 이런 사실을 알려주어야 한다. 기다리던 손님중 한 명이 식당에 들어간다.
+			- `Condition newCondition()` 
+			    - `Condition` 객체를 생성하여 반환한다.
+			    - `Condition` 객체는 락과 결합되어 사용되며, 스레드가 특정 조건을 기다리거나 신호를 받을 수 있도록 한다.
+			    - 이는 `Object` 클래스의 `wait`, `notify`, `notifyAll` 메서드와 유사한 역할을 한다.
+		- synchronized의 공정성 문제 해결
+			- 비공정 모드 락: `private final Lock nonFairLock = new ReentrantLock();`
+				- ReentrantLock의 기본 모드
+				- 락을 먼저 요청한 스레드가 락을 먼저 획득한다는 보장이 없다.
+				- 락을 풀었을 때, 대기 중인 스레드 중 아무나 락을 획득할 수 있다.
+				- 락을 획득하는 속도가 빠르지만, 특정 스레드가 계속해서 락을 획득하지 못하는 기아 현상이 발생할 수 있다.
+			- 공정 모드 락: `private final Lock fairLock = new ReentrantLock(true);`
+				- 락을 요청한 순서대로 스레드가 락을 획득할 수 있게 된다.(공정성 보장)
+				- 대기 큐에서 먼저 대기한 스레드가 락을 먼저 획득하는 것을 보장하므로 공정성을 보장하지만, 락을 획득하는 속도가 느려질 수 있다.
+		- **임계 영역이 끝나면 반드시! 락을 반납해야 대기하는 스레드가 락을 얻을 수 있다.**
+			- lock.unlock()은 반드시 finally 블럭에 작성해서 무조건 락을 반납해야한다.
+		- 동작 원리
+			- ReentrantLock 내부
+				- 락과 락을 얻지 못해 대기하는 스레드를 관리하는 대기 큐가 존재.
+			- t1: ReentrantLock에 있는 락을 획득
+				- **락을 획득하는 경우 RUNNABLE 상태가 유지되고**, 임계 영역의 코드 실행이 가능해진다.
+			- t1: 임계 영역의 코드 실행
+				- t2: ReentrantLock에 있는 락의 획득을 시도하지만 락이 없다.
+					- 락을 획득하지 못하면 WAITING 상태가 되고, 대기 큐에서 관리된다.
+					- LockSupport.park()가 내부에서 호출된다.
+			- t1: 임계 영역의 코드를 수행 완료 -> balance = 200
+			- 임계 영역을 수행하고 나면 lock.unlock()을 호출
+				- t1: 락을 반납하고, 대기 큐의 스레드를 하나 깨운다.
+					- LockSupport.unpark(thread)가 내부에서 호출된다.
+				- t2: RUNNABLE 상태가 되면서 깨어난 스레드는 락 획득을 시도한다.
+					- 락을 획득하면 lock.lock()을 빠져나오면서 대기 큐에서 제거
+					- 락을 획득하지 못하면 다시 대기 상태가 되고, 대기 큐에 유지
+						- (스레드의 락 획득 순서를 보장하지 않는다: 비공정 락)
+						- (공정 모드의 경우 대기 큐에 먼저 대기한 스레드가 먼저 락을 가져간다: 공정 락)
+				- 락을 획득한 t2 스레드는 RUNNABLE 상태로 임계 영역을 수행한다.
+					- 잔액(200)이 출금액(800)보다 적으므로 검증 로직을 통과하지 못하므로 return false가 호출된다.
+					- finally 구문에서 lock.unlock()을 통해 락을 반납하고, 대기 큐의 스레드를 하나 깨우려고 시도한다.
+					- 대기 큐에 스레드가 없으면 이때는 깨우지 않는다.
+			- 
