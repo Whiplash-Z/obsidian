@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/1) Java/4) 멀티스레드와 동시성/고급 동기화 - concurrent.Lock.md",
+                "file": "1. Projects/1) Java/4) 멀티스레드와 동시성/생산자 소비자 문제.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "고급 동기화 - concurrent.Lock"
+              "title": "생산자 소비자 문제"
             }
           }
         ]
@@ -178,8 +178,8 @@
   },
   "active": "48d552b7272386cf",
   "lastOpenFiles": [
-    "0. Lovely Box/질문.md",
     "1. Projects/1) Java/4) 멀티스레드와 동시성/고급 동기화 - concurrent.Lock.md",
+    "0. Lovely Box/질문.md",
     "1. Projects/1) Java/4) 멀티스레드와 동시성/📌 멀티스레드와 동시성 INDEX.md",
     "1. Projects/1) Java/4) 멀티스레드와 동시성/동기화 - synchronized.md",
     "4. Archive/attachedFiles/Pasted image 20241207015544.png",
