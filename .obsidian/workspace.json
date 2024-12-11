@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. Lovely Box/생각 정리.md",
+                "file": "0. Lovely Box/생각 정리 - 서버.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "생각 정리"
+              "title": "생각 정리 - 서버"
             }
           }
         ]
@@ -179,6 +179,7 @@
   "active": "c3fd67b01aba5e53",
   "lastOpenFiles": [
     "0. Lovely Box/생각 정리.md",
+    "0. Lovely Box/생각 정리 - 서버.md",
     "1. Projects/Infra/Docker/EC2 생성.md",
     "1. Projects/Infra/Docker/GitLab 연동.md",
     "1. Projects/project/redis/Redis(Remote Dictionary Server)란?.md",
@@ -221,7 +222,6 @@
     "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/불변 객체.md",
     "0. Lovely Box/🔭 Brain Map.canvas",
     "0. Lovely Box/Callout List.md",
-    "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/String 클래스.md",
     "2. Area/1) Java/Thread",
     "1. Projects/2) Spring/Spring MVC Basic",
     "2. Area/2) Spring/HTTP Web Basic",
