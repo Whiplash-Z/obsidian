@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. Lovely Box/생각 정리 - 서버.md",
+                "file": "1. Projects/2) Spring/필터와 인터셉터.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "생각 정리 - 서버"
+              "title": "필터와 인터셉터"
             }
           }
         ]
@@ -178,8 +178,9 @@
   },
   "active": "c3fd67b01aba5e53",
   "lastOpenFiles": [
-    "0. Lovely Box/test.md",
     "0. Lovely Box/생각 정리 - 서버.md",
+    "1. Projects/2) Spring/필터와 인터셉터.md",
+    "0. Lovely Box/test.md",
     "0. Lovely Box/생각 정리.md",
     "1. Projects/Infra/Docker/EC2 생성.md",
     "1. Projects/Infra/Docker/GitLab 연동.md",
@@ -220,7 +221,6 @@
     "3. Resource/Dev_Questions/JWT.md",
     "1. Projects/2) Spring/Spring MVC 2/Validation.md",
     "1. Projects/2) Spring/Spring MVC 2",
-    "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/불변 객체.md",
     "0. Lovely Box/🔭 Brain Map.canvas",
     "2. Area/1) Java/Thread",
     "1. Projects/2) Spring/Spring MVC Basic",
