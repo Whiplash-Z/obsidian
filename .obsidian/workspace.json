@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "1. Projects/2) Spring/필터와 인터셉터.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               },
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5026054382324
+    "width": 321.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "202c84756aa6c013",
@@ -178,6 +179,8 @@
   },
   "active": "c3fd67b01aba5e53",
   "lastOpenFiles": [
+    "4. Archive/attachedFiles/Pasted image 20241217103844.png",
+    "4. Archive/attachedFiles/Pasted image 20241217103635.png",
     "0. Lovely Box/생각 정리 - 서버.md",
     "1. Projects/2) Spring/필터와 인터셉터.md",
     "0. Lovely Box/test.md",
@@ -201,7 +204,6 @@
     "4. Archive/attachedFiles/Pasted image 20241207014129.png",
     "4. Archive/attachedFiles/Pasted image 20241207014020.png",
     "4. Archive/attachedFiles/Pasted image 20241207014009.png",
-    "4. Archive/attachedFiles/Pasted image 20241207013909.png",
     "1. Projects/1) Java/4) 멀티스레드와 동시성/Untitled.md",
     "1. Projects/1) Java/4) 멀티스레드와 동시성/스레드 제어와 생명 주기.md",
     "1. Projects/1) Java/4) 멀티스레드와 동시성/volatile 메모리 가시성.md",
@@ -219,7 +221,6 @@
     "JWT & Session.canvas",
     "1. Projects/2) Spring/Spring MVC 2/Thymeleaf.md",
     "3. Resource/Dev_Questions/JWT.md",
-    "1. Projects/2) Spring/Spring MVC 2/Validation.md",
     "1. Projects/2) Spring/Spring MVC 2",
     "0. Lovely Box/🔭 Brain Map.canvas",
     "2. Area/1) Java/Thread",
