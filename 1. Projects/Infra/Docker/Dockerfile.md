@@ -80,4 +80,34 @@ CONTAINER ID   IMAGE          COMMAND                   CREATED          STATUS 
 	- `docker run`을 실행할 때 `-p`를 사용해서 실제 포트를 노출시켜야 한다.
 - Dockerfile에 EXPOSE를 추가하여 이 동작을 문서화 하는 것을 권장한다.
 
+> 레이어 최적화
+```
+# 베이스 이미지  
+FROM node  
+  
+# 작업 디렉토리 설정  
+# 도커에게 모든 후속 명령이 이 폴더(/app) 내부에서 실행될 것임을 알린다.  
+WORKDIR /app  
+  
+COPY package.json /app  
+  
+# 노드 애플리케이션의 모든 종속성을 설치하기 위해 npm install을 실행해야 한다.  
+# 도커 컨테이너 및 이미지의 작업 디렉토리에서 실행된다.  
+RUN npm install # 이미지를 생성할 때 이 명령어를 실행해야하는 이유가 무엇일까?  
+  
+COPY . /app  
+  
+# 컨테이너가 시작될 때 우리의 로컬 시스템에 특정 포트를 노출하고 싶다는 것을 도커에게 알린다.  
+# 80 포트를 수신하고 있는 컨테이너를 실행할 수 있게 된다.  
+EXPOSE 80  
+  
+# CMD: 이미지가 생성될 때 실행되지 않고, 이미지를 기반으로 컨테이너가 시작될 때 실행된다.  
+CMD ["node", "server.js"]
+```
 
+- package.json의 코드가 변경되지 않는 이상 npm install이 다시 실행되지 않아도 되는데,
+  이전 Dockerfile에 의하면 매번 build 할 때마다 npm install이 실행되었다.
+- 도커 레이어는 이전 단계의 결과가 캐시 레이어를 사용한다면 다음 레이어도 캐시 레이어를 사용하는 구조를 활용해서 레이어 최적화를 할 수 있다.
+- package.json 코드가 변경되지 않는 이상, RUN npm install 까지는 캐시레이어를 사용하고,
+  server.js 파일이 변경되면 COPY . /app 명령어부터 새로운 레이어를 만들어 사용한다.
+![[Pasted image 20241218171546.png]]
