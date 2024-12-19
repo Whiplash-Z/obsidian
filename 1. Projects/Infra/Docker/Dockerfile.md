@@ -80,7 +80,7 @@ CONTAINER ID   IMAGE          COMMAND                   CREATED          STATUS 
 	- `docker run`을 실행할 때 `-p`를 사용해서 실제 포트를 노출시켜야 한다.
 - Dockerfile에 EXPOSE를 추가하여 이 동작을 문서화 하는 것을 권장한다.
 
-> 레이어 최적화
+> 빌드 최적화
 ```
 # 베이스 이미지  
 FROM node  
