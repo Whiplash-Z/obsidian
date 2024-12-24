@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/Infra/Docker/기본 명령어.md",
+                "file": "1. Projects/Infra/Docker/Volume.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "기본 명령어"
+              "title": "Volume"
             }
           }
         ]
@@ -179,12 +179,15 @@
   },
   "active": "cf5ecc6e260be178",
   "lastOpenFiles": [
+    "4. Archive/attachedFiles/Pasted image 20241224154622.png",
+    "0. Lovely Box/생각 정리 - 서버.md",
+    "1. Projects/Infra/Docker/Volume.md",
+    "1. Projects/Infra/Docker/기본 명령어.md",
     "4. Archive/attachedFiles/Pasted image 20241220132748.png",
     "4. Archive/attachedFiles/Pasted image 20241220124236.png",
     "4. Archive/attachedFiles/Pasted image 20241220124039.png",
     "4. Archive/attachedFiles/Pasted image 20241220114423.png",
     "1. Projects/JPA/2) 영속성 관리.md",
-    "1. Projects/Infra/Docker/기본 명령어.md",
     "1. Projects/JPA/1) JPA Basic.md",
     "4. Archive/attachedFiles/Pasted image 20241219154309.png",
     "4. Archive/attachedFiles/Pasted image 20241219154236.png",
@@ -206,9 +209,7 @@
     "4. Archive/attachedFiles/Pasted image 20241218171546.png",
     "4. Archive/attachedFiles/Pasted image 20241218154347.png",
     "1. Projects/Infra/Docker/What is Docker And Why ?.md",
-    "4. Archive/attachedFiles/Pasted image 20241217210544.png",
     "1. Projects/Infra/Docker",
-    "0. Lovely Box/생각 정리 - 서버.md",
     "0. Lovely Box/test.md",
     "0. Lovely Box/생각 정리.md",
     "1. Projects/Infra/Docker - ECS/EC2 생성.md",
@@ -218,7 +219,6 @@
     "1. Projects/project/redis",
     "1. Projects/project",
     "0. Lovely Box/질문.md",
-    "1. Projects/1) Java/4) 멀티스레드와 동시성/📌 멀티스레드와 동시성 INDEX.md",
     "1. Projects/Infra/Docker - ECS",
     "1. Projects/Infra",
     "1. Projects/1) Java/4) 멀티스레드와 동시성",
