@@ -4,25 +4,83 @@
     "type": "split",
     "children": [
       {
-        "id": "e6e5e73a747433b2",
+        "id": "2cb15f7e2d6d90bc",
         "type": "tabs",
         "children": [
           {
-            "id": "cf5ecc6e260be178",
+            "id": "b2efe04a0fa745d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/Infra/Docker/Volume.md",
+                "file": "Java OOP 질문 리스트.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "Volume"
+              "title": "Java OOP 질문 리스트"
+            }
+          },
+          {
+            "id": "e352b2c3d16a2460",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Projects/ComputerScienceNote/API.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "API"
+            }
+          },
+          {
+            "id": "8c964e544875b18e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "동시성과 병렬성 (Josh).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "동시성과 병렬성 (Josh)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +99,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -78,8 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.51103591918945,
-    "collapsed": true
+    "width": 338.51103591918945
   },
   "right": {
     "id": "202c84756aa6c013",
@@ -177,55 +235,93 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cf5ecc6e260be178",
+  "floating": {
+    "id": "f45f8e54e68ed7a3",
+    "type": "floating",
+    "children": [
+      {
+        "id": "f17b630fdc6c2416",
+        "type": "window",
+        "children": [
+          {
+            "id": "b71b98b1e6de902f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "253b5862b9b88c5e",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Drawing 2025-05-25 20.22.32.excalidraw.md"
+                  },
+                  "icon": "excalidraw-icon",
+                  "title": "Drawing 2025-05-25 20.22.32.excalidraw"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 38,
+        "width": 683,
+        "height": 999,
+        "maximize": false,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "e352b2c3d16a2460",
   "lastOpenFiles": [
-    "4. Archive/attachedFiles/Pasted image 20241224154622.png",
+    "4. Archive/attachedFiles/Pasted image 20250525225249.png",
+    "4. Archive/attachedFiles/Pasted image 20250525224837.png",
+    "0. Lovely Box/Callout List.md",
+    "1. Projects/ComputerScienceNote/API.md",
+    "1. Projects/ComputerScienceNote/데이터 교환 형식 JSON, 직렬화, 역직렬화.md",
+    "Excalidraw/Drawing 2025-05-25 20.22.32.excalidraw.md",
+    "동시성과 병렬성 (Josh).md",
+    "Java OOP 질문 리스트.md",
+    "1. Projects/Untitled.md",
+    "1. Projects/ComputerScienceNote",
+    "4. Archive/attachedFiles/people_.png",
+    "Untitled.canvas",
+    "2. Area/1) Java/3) Generic & Collection/Collection - 3) LinkedList.md",
+    "2. Area/1) Java/3) Generic & Collection/g.md",
+    "2. Area/1) Java/3) Generic & Collection/📌 중급 2편 INDEX.md",
+    "0. Lovely Box/✅ 할 일.md",
     "0. Lovely Box/생각 정리 - 서버.md",
-    "1. Projects/Infra/Docker/Volume.md",
-    "1. Projects/Infra/Docker/기본 명령어.md",
+    "0. Lovely Box/🔭 Brain Map.canvas",
+    "README.md",
+    "2. Area/1) Java/1) Java 객체지향/📌 기본편 (객체지향) INDEX.md",
+    "2. Area/1) Java/3) Generic & Collection/1) Generic을 사용하는 이유.md",
+    "2. Area/1) Java/3) Generic & Collection/Collection - 1) ArrayList(배열).md",
+    "2. Area/1) Java/3) Generic & Collection/빅오(O) 표기법.md",
+    "2. Area/1) Java/3) Generic & Collection/Collection - 2) 직접 구현하는 배열 리스트 시작.md",
+    "1. Projects/project/redis/Redis(Remote Dictionary Server)란?.md",
+    "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/📌 중급 1편 (다양한 기능) INDEX.md",
+    "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/불변 객체.md",
+    "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/열거형(ENUM).md",
+    "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/String 클래스.md",
+    "2. Area/1) Java/1) Java 객체지향/c) 기본형과 참조형.md",
+    "2. Area/1) Java/1) Java 객체지향/b)클래스와 데이터.md",
+    "4. Archive/attachedFiles/Pasted image 20250112000758.png",
+    "4. Archive/attachedFiles/Pasted image 20250111230548.png",
+    "4. Archive/attachedFiles/Pasted image 20241224154622.png",
     "4. Archive/attachedFiles/Pasted image 20241220132748.png",
     "4. Archive/attachedFiles/Pasted image 20241220124236.png",
     "4. Archive/attachedFiles/Pasted image 20241220124039.png",
     "4. Archive/attachedFiles/Pasted image 20241220114423.png",
-    "1. Projects/JPA/2) 영속성 관리.md",
-    "1. Projects/JPA/1) JPA Basic.md",
     "4. Archive/attachedFiles/Pasted image 20241219154309.png",
-    "4. Archive/attachedFiles/Pasted image 20241219154236.png",
-    "4. Archive/attachedFiles/Pasted image 20241219154151.png",
-    "4. Archive/attachedFiles/Pasted image 20241219154142.png",
-    "3. Resource/Dev_Questions/Ceph.md",
     "1. Projects/JPA",
-    "1. Projects/Infra/Docker/Dockerfile.md",
-    "1. Projects/1) Java/4) 멀티스레드와 동시성/2) 스레드의 생성과 실행.md",
-    "1. Projects/1) Java/4) 멀티스레드와 동시성/동기화 - synchronized.md",
-    "1. Projects/1) Java/4) 멀티스레드와 동시성/1) 프로세스와 스레드.md",
-    "1. Projects/1) Java/4) 멀티스레드와 동시성/고급 동기화 - concurrent.Lock.md",
-    "1. Projects/2) Spring/Spring MVC Basic/스프링 MVC 1.md",
-    "1. Projects/2) Spring/Spring MVC 2/메시지, 국제화.md",
-    "1. Projects/2) Spring/Spring MVC 2/필터와 인터셉터.md",
-    "1. Projects/2) Spring/Spring MVC 2/API 예외처리.md",
-    "1. Projects/2) Spring/Spring MVC 2/Thymeleaf.md",
-    "1. Projects/2) Spring/Spring MVC 2/Validation.md",
-    "4. Archive/attachedFiles/Pasted image 20241218171546.png",
-    "4. Archive/attachedFiles/Pasted image 20241218154347.png",
-    "1. Projects/Infra/Docker/What is Docker And Why ?.md",
     "1. Projects/Infra/Docker",
-    "0. Lovely Box/test.md",
-    "0. Lovely Box/생각 정리.md",
-    "1. Projects/Infra/Docker - ECS/EC2 생성.md",
-    "1. Projects/Infra/Docker - ECS/GitLab 연동.md",
-    "1. Projects/project/redis/Redis(Remote Dictionary Server)란?.md",
-    "1. Projects/1) Java/4) 멀티스레드와 동시성/생산자 소비자 문제.md",
     "1. Projects/project/redis",
     "1. Projects/project",
-    "0. Lovely Box/질문.md",
     "1. Projects/Infra/Docker - ECS",
     "1. Projects/Infra",
     "1. Projects/1) Java/4) 멀티스레드와 동시성",
     "JWT & Session.canvas",
     "1. Projects/2) Spring/Spring MVC 2",
-    "0. Lovely Box/🔭 Brain Map.canvas",
-    "2. Area/1) Java/Thread",
-    "1. Projects/2) Spring/Spring MVC Basic"
+    "2. Area/1) Java/Thread"
   ]
 }

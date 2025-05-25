@@ -1,4 +1,34 @@
-[[Collection - 1) ArrayList(배열)]]
-[[Collection - 2) 직접 구현하는 배열 리스트 시작]]
-[[빅오(O) 표기법]]
-[[Collection - 3) LinkedList]]
+- [[1) Generic을 사용하는 이유]]
+	- IntegerBox, StringBox ... -> 타입 안정성은 있지만, **재사용 불가**
+		- XxxBox로 무한히 필요한 만큼 만들어야 한다.
+	- 다형성을 활용해서 재사용성을 높여본다.
+		- Object 타입으로 인자를 받는 클래스 (ObjectBox)
+			- 다형성 덕분에 모든 타입을 매개 변수에 인자를 받을 수 있어서 재사용성은 높아졌으나, **타입 안정성이 떨어진다.**
+			- integerBox.set("문자 100");
+				- Integer integer = **(Integer) integerBox.get();**
+					- String -> Integer 다운 캐스팅 불가능 !
+					- ClassCastException 발생!
+	- 재사용성과 타입 안정성을 모두 잡으려면 -> Generic !
+	- 사용할 타입을 미리 정하지 않는다.
+	- 클래스를 정의하는 시점이 아닌, 실제 사용하는 생성 시점에 타입을 결정한다.
+		- 생성 시점에 타입을 결정하므로 **재사용성** ✅
+		- 생성 시점에 정의한 타입만 인자값으로 전달할 수 있으므로 **타입 안정성** ✅
+	- <제네릭 타입 매개 변수 제한>
+		- Animal과 관련된 타입만 사용하고 싶다면?
+			- Animal, Cat, Dog만 받고 싶은데 `<T>` 는 Integer, String등 다양한 타입을 인자로 받을 수 있다.
+			- `<T extends Animal>` -> Animal을 포함한 자식들만 허용한다.
+	- <제네릭 메서드>
+		- 특정 메서드에 제네릭을 적용한다.
+		- 메서드에만 한정적으로 사용한다.
+			- 제네릭 타입(제네릭 클래스)의 스코프를 무시한다.
+				- 제네릭 메서드 >> 제네릭 타입
+		- `public static <T> T genericMethod(T obj) {return obj;}`
+			- 반환값 앞에 `<T>` 는 제네릭 메서드임을 나타낸다.
+		- `public static <T extends Number> T numberMethod(T obj) {return obj;}`
+			- 매개변수 제한 가능하다.
+		- `GenericMethod.<Integer>genericMethod(10);`
+			- 제네릭 메서드 호출 방법
+- [[Collection - 1) ArrayList(배열)]]
+- [[Collection - 2) 직접 구현하는 배열 리스트 시작]]
+- [[빅오(O) 표기법]]
+- [[Collection - 3) LinkedList]]
