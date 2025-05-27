@@ -56,6 +56,30 @@
             }
           },
           {
+            "id": "c761b5765f9ed351",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "컴퓨터의 폴더 구조 탐색.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "컴퓨터의 폴더 구조 탐색"
+            }
+          },
+          {
             "id": "e352b2c3d16a2460",
             "type": "leaf",
             "state": {
@@ -104,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -161,7 +185,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.51103591918945
+    "width": 338.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "202c84756aa6c013",
@@ -259,31 +284,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "be6e2cb7cecfbbbc",
+  "active": "c761b5765f9ed351",
   "lastOpenFiles": [
+    "4. Archive/attachedFiles/Pasted image 20250527111237.png",
+    "4. Archive/attachedFiles/Pasted image 20250527110600.png",
+    "4. Archive/attachedFiles/Pasted image 20250527104938.png",
+    "4. Archive/attachedFiles/Pasted image 20250527103308.png",
+    "4. Archive/attachedFiles/Pasted image 20250527102730.png",
+    "동시성과 병렬성 (Josh).md",
+    "컴퓨터의 폴더 구조 탐색.md",
+    "1. Projects/ComputerScienceNote/클라우드.md",
+    "1. Projects/Infra/Linux",
     "4. Archive/attachedFiles/Pasted image 20250526170432.png",
     "4. Archive/attachedFiles/Pasted image 20250526170051.png",
     "4. Archive/attachedFiles/Pasted image 20250526165833.png",
     "4. Archive/attachedFiles/Pasted image 20250526165652.png",
     "4. Archive/attachedFiles/Pasted image 20250526165613.png",
     "4. Archive/attachedFiles/Pasted image 20250526160538.png",
-    "4. Archive/attachedFiles/Pasted image 20250526160254.png",
-    "4. Archive/attachedFiles/Pasted image 20250526155222.png",
     "1. Projects/ComputerScienceNote/API.md",
-    "1. Projects/ComputerScienceNote/클라우드.md",
     "0. Lovely Box/drawing.excalidraw.md",
     "Excalidraw/java-memory.excalidraw.md",
     "0. Lovely Box/생각 정리 - 서버.md",
     "Untitled.canvas",
     "Java OOP 질문 리스트.md",
-    "4. Archive/attachedFiles/Pasted image 20250525225249.png",
-    "4. Archive/attachedFiles/Pasted image 20250525224837.png",
     "0. Lovely Box/Callout List.md",
     "1. Projects/ComputerScienceNote/데이터 교환 형식 JSON, 직렬화, 역직렬화.md",
-    "동시성과 병렬성 (Josh).md",
     "1. Projects/Untitled.md",
     "1. Projects/ComputerScienceNote",
-    "4. Archive/attachedFiles/people_.png",
     "2. Area/1) Java/3) Generic & Collection/Collection - 3) LinkedList.md",
     "2. Area/1) Java/3) Generic & Collection/g.md",
     "2. Area/1) Java/3) Generic & Collection/📌 중급 2편 INDEX.md",
@@ -299,7 +326,6 @@
     "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/📌 중급 1편 (다양한 기능) INDEX.md",
     "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/불변 객체.md",
     "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/열거형(ENUM).md",
-    "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/String 클래스.md",
     "1. Projects/JPA",
     "1. Projects/Infra/Docker",
     "1. Projects/project/redis",
@@ -308,7 +334,6 @@
     "1. Projects/Infra",
     "1. Projects/1) Java/4) 멀티스레드와 동시성",
     "JWT & Session.canvas",
-    "1. Projects/2) Spring/Spring MVC 2",
-    "2. Area/1) Java/Thread"
+    "1. Projects/2) Spring/Spring MVC 2"
   ]
 }
