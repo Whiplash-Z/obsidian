@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "c61e5076ea562e53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Projects/컴공 전공 지식/컴퓨터가 기억공간을 관리하는 방법.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "컴퓨터가 기억공간을 관리하는 방법"
+            }
+          },
+          {
             "id": "8c964e544875b18e",
             "type": "leaf",
             "state": {
@@ -126,9 +150,33 @@
               "icon": "lucide-file",
               "title": "클라우드"
             }
+          },
+          {
+            "id": "dd69838f728ed762",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "로드맵.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "로드맵"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -284,29 +332,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c761b5765f9ed351",
+  "active": "c61e5076ea562e53",
   "lastOpenFiles": [
+    "4. Archive/attachedFiles/Pasted image 20250527161126.png",
+    "4. Archive/attachedFiles/Pasted image 20250527160116.png",
+    "1. Projects/컴공 전공 지식/컴퓨터가 연산하는 과정.md",
+    "1. Projects/컴공 전공 지식/컴퓨터가 기억공간을 관리하는 방법.md",
+    "JWT & Session.canvas",
+    "1. Projects/Infra/Linux/컴퓨터의 폴더 구조 탐색.md",
+    "4. Archive/attachedFiles/Pasted image 20250527155656.png",
+    "Java OOP 질문 리스트.md",
+    "1. Projects/컴공 전공 지식",
+    "로드맵.md",
     "4. Archive/attachedFiles/Pasted image 20250527111237.png",
     "4. Archive/attachedFiles/Pasted image 20250527110600.png",
     "4. Archive/attachedFiles/Pasted image 20250527104938.png",
     "4. Archive/attachedFiles/Pasted image 20250527103308.png",
     "4. Archive/attachedFiles/Pasted image 20250527102730.png",
     "동시성과 병렬성 (Josh).md",
-    "컴퓨터의 폴더 구조 탐색.md",
     "1. Projects/ComputerScienceNote/클라우드.md",
     "1. Projects/Infra/Linux",
     "4. Archive/attachedFiles/Pasted image 20250526170432.png",
     "4. Archive/attachedFiles/Pasted image 20250526170051.png",
     "4. Archive/attachedFiles/Pasted image 20250526165833.png",
-    "4. Archive/attachedFiles/Pasted image 20250526165652.png",
-    "4. Archive/attachedFiles/Pasted image 20250526165613.png",
-    "4. Archive/attachedFiles/Pasted image 20250526160538.png",
     "1. Projects/ComputerScienceNote/API.md",
     "0. Lovely Box/drawing.excalidraw.md",
     "Excalidraw/java-memory.excalidraw.md",
     "0. Lovely Box/생각 정리 - 서버.md",
     "Untitled.canvas",
-    "Java OOP 질문 리스트.md",
     "0. Lovely Box/Callout List.md",
     "1. Projects/ComputerScienceNote/데이터 교환 형식 JSON, 직렬화, 역직렬화.md",
     "1. Projects/Untitled.md",
@@ -323,17 +376,12 @@
     "2. Area/1) Java/3) Generic & Collection/빅오(O) 표기법.md",
     "2. Area/1) Java/3) Generic & Collection/Collection - 2) 직접 구현하는 배열 리스트 시작.md",
     "1. Projects/project/redis/Redis(Remote Dictionary Server)란?.md",
-    "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/📌 중급 1편 (다양한 기능) INDEX.md",
-    "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/불변 객체.md",
-    "2. Area/1) Java/2) 자바가 제공하는 다양한 기능/열거형(ENUM).md",
     "1. Projects/JPA",
     "1. Projects/Infra/Docker",
     "1. Projects/project/redis",
     "1. Projects/project",
     "1. Projects/Infra/Docker - ECS",
     "1. Projects/Infra",
-    "1. Projects/1) Java/4) 멀티스레드와 동시성",
-    "JWT & Session.canvas",
-    "1. Projects/2) Spring/Spring MVC 2"
+    "1. Projects/1) Java/4) 멀티스레드와 동시성"
   ]
 }
