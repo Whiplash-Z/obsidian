@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/Infra/Linux/3) 파일 및 폴더 생성.md",
-                "mode": "source",
+                "file": "2. Area/1) Java/3) Generic & Collection/Collection - 5) Hash Code.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3) 파일 및 폴더 생성"
+              "title": "Collection - 5) Hash Code"
             }
           },
           {
@@ -203,8 +203,27 @@
   },
   "active": "1bb6eab200998725",
   "lastOpenFiles": [
-    "1. Projects/Infra/Linux/1) Linux 동작 순서.md",
+    "2. Area/1) Java/3) Generic & Collection/Collection - 4) 해시 알고리즘.md",
+    "2. Area/1) Java/3) Generic & Collection/Collection - 3) LinkedList.md",
+    "2. Area/1) Java/3) Generic & Collection/Collection - 5) Hash Code.md",
+    "1. Projects/project/redis/Redis(Remote Dictionary Server)란?.md",
+    "1. Projects/컴공 전공 지식/컴퓨터 구조/컴퓨터가 기억공간을 관리하는 방법.md",
+    "1. Projects/컴공 전공 지식/컴퓨터 구조/HDD, SSD와 파일 시스템.md",
+    "1. Projects/컴공 전공 지식/컴퓨터 구조",
+    "1. Projects/컴공 전공 지식/컴퓨터 구조/컴퓨터가 연산하는 과정.md",
+    "4. Archive/attachedFiles/Pasted image 20250528175617.png",
+    "4. Archive/attachedFiles/Pasted image 20250528175417.png",
+    "4. Archive/attachedFiles/Pasted image 20250528175328.png",
+    "1. Projects/ComputerScienceNote/2) 디자인 패턴/디자인패턴 소개.md",
+    "4. Archive/attachedFiles/Pasted image 20250528165126.png",
+    "1. Projects/ComputerScienceNote/1) 개발자 필수 지식/데이터 교환 형식 JSON, 직렬화, 역직렬화.md",
     "1. Projects/Infra/Linux/3) 파일 및 폴더 생성.md",
+    "1. Projects/ComputerScienceNote/1) 개발자 필수 지식",
+    "1. Projects/ComputerScienceNote/2) 디자인 패턴",
+    "4. Archive/attachedFiles/Pasted image 20250528151028.png",
+    "4. Archive/attachedFiles/Pasted image 20250528144735.png",
+    "4. Archive/attachedFiles/Pasted image 20250528143715.png",
+    "1. Projects/Infra/Linux/1) Linux 동작 순서.md",
     "Excalidraw/Drawing 2025-05-28 13.40.21.excalidraw.md",
     "1. Projects/Infra/Linux/2) 컴퓨터의 폴더 구조 탐색.md",
     "4. Archive/attachedFiles/Pasted Image 20250528141409_118.png",
@@ -219,27 +238,11 @@
     "2. Area/지원하고 싶은 회사.md",
     "2. Area/만들어보고 싶은 프로젝트.md",
     "2. Area/1) Java/3) Generic & Collection/ArrayList vs LinkedList.md",
-    "2. Area/1) Java/3) Generic & Collection/Collection - 5) Hash Code.md",
     "4. Archive/attachedFiles/Pasted image 20250528112930.png",
-    "4. Archive/attachedFiles/Pasted image 20250528112558.png",
-    "4. Archive/attachedFiles/Pasted image 20250528111101.png",
-    "2. Area/1) Java/3) Generic & Collection/Collection - 4) 해시 알고리즘.md",
-    "4. Archive/attachedFiles/Pasted image 20250527230908.png",
-    "4. Archive/attachedFiles/Pasted image 20250527220637.png",
-    "4. Archive/attachedFiles/Pasted image 20250527220525.png",
-    "4. Archive/attachedFiles/Pasted image 20250527220442.png",
-    "4. Archive/attachedFiles/Pasted image 20250527220204.png",
     "4. Archive/attachedFiles/HashStart2.java",
     "로드맵.md",
     "0. Lovely Box/Callout List.md",
     "Java OOP 질문 리스트.md",
-    "2. Area/1) Java/3) Generic & Collection/Collection - 3) LinkedList.md",
-    "2. Area/1) Java/1) Java 객체지향/📌 기본편 (객체지향) INDEX.md",
-    "2. Area/1) Java/1) Java 객체지향/a)자바의 객체지향 언어를 사용하는 이유.md",
-    "3. Resource/JD/Toss.md",
-    "동시성과 병렬성 (Josh).md",
-    "3. Resource/JD/adfadfs.md",
-    "Untitled.md",
     "3. Resource/JD",
     "JWT & Session.canvas",
     "1. Projects/컴공 전공 지식",
@@ -248,9 +251,6 @@
     "1. Projects/ComputerScienceNote",
     "0. Lovely Box/🔭 Brain Map.canvas",
     "1. Projects/JPA",
-    "1. Projects/Infra/Docker",
-    "1. Projects/project/redis",
-    "1. Projects/project",
-    "1. Projects/Infra/Docker - ECS"
+    "1. Projects/Infra/Docker"
   ]
 }
