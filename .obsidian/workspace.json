@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Area/1) Java/3) Generic & Collection/Collection - 4) 해시 알고리즘.md",
+                "file": "2. Area/1) Java/3) Generic & Collection/Collection - 5) Hash Code.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Collection - 4) 해시 알고리즘"
+              "title": "Collection - 5) Hash Code"
             }
           }
         ]
@@ -188,6 +188,11 @@
   },
   "active": "dd69838f728ed762",
   "lastOpenFiles": [
+    "4. Archive/attachedFiles/Pasted image 20250528112930.png",
+    "4. Archive/attachedFiles/Pasted image 20250528112558.png",
+    "4. Archive/attachedFiles/Pasted image 20250528111101.png",
+    "2. Area/1) Java/3) Generic & Collection/Collection - 4) 해시 알고리즘.md",
+    "2. Area/1) Java/3) Generic & Collection/Collection - 5) Hash Code.md",
     "4. Archive/attachedFiles/Pasted image 20250527230908.png",
     "4. Archive/attachedFiles/Pasted image 20250527220637.png",
     "4. Archive/attachedFiles/Pasted image 20250527220525.png",
@@ -196,13 +201,9 @@
     "4. Archive/attachedFiles/Pasted image 20250527215922.png",
     "4. Archive/attachedFiles/Pasted image 20250527215128.png",
     "4. Archive/attachedFiles/Pasted image 20250527205625.png",
-    "4. Archive/attachedFiles/Pasted image 20250527205203.png",
-    "4. Archive/attachedFiles/Pasted image 20250527205108.png",
     "4. Archive/attachedFiles/HashStart2.java",
     "로드맵.md",
-    "2. Area/1) Java/3) Generic & Collection/Collection - 4) 해시 알고리즘.md",
     "0. Lovely Box/Callout List.md",
-    "4. Archive/attachedFiles/Pasted image 20250527201809.png",
     "Java OOP 질문 리스트.md",
     "2. Area/1) Java/3) Generic & Collection/Collection - 3) LinkedList.md",
     "2. Area/1) Java/1) Java 객체지향/📌 기본편 (객체지향) INDEX.md",
@@ -231,7 +232,6 @@
     "2. Area/1) Java/3) Generic & Collection/📌 중급 2편 INDEX.md",
     "0. Lovely Box/✅ 할 일.md",
     "0. Lovely Box/🔭 Brain Map.canvas",
-    "README.md",
     "1. Projects/JPA",
     "1. Projects/Infra/Docker",
     "1. Projects/project/redis",
