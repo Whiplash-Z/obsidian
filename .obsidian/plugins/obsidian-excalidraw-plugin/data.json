@@ -102,6 +102,64 @@
     "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.6.6",
     "libraryItems": [
       {
+        "status": "unpublished",
+        "elements": [
+          {
+            "id": "-LBZRQuZJtWyrChySN3U1",
+            "type": "arrow",
+            "x": -228.0741927562926,
+            "y": -196.64368438720703,
+            "width": 0.2308700023863537,
+            "height": 76.31588745117188,
+            "angle": 0,
+            "strokeColor": "#1e1e1e",
+            "backgroundColor": "transparent",
+            "fillStyle": "solid",
+            "strokeWidth": 2,
+            "strokeStyle": "solid",
+            "roughness": 1,
+            "opacity": 100,
+            "groupIds": [],
+            "frameId": null,
+            "index": "a3",
+            "roundness": {
+              "type": 2
+            },
+            "seed": 582982085,
+            "version": 136,
+            "versionNonce": 409818661,
+            "isDeleted": false,
+            "boundElements": [],
+            "updated": 1748405849942,
+            "link": null,
+            "locked": false,
+            "points": [
+              [
+                0,
+                0
+              ],
+              [
+                0.2308700023863537,
+                76.31588745117188
+              ]
+            ],
+            "lastCommittedPoint": null,
+            "startBinding": {
+              "elementId": "cKYei5dB41fVi3pwmM9oU",
+              "focus": 0.006318996021840171,
+              "gap": 1,
+              "fixedPoint": null
+            },
+            "endBinding": null,
+            "startArrowhead": null,
+            "endArrowhead": "arrow",
+            "elbowed": false
+          }
+        ],
+        "id": "E1E_zq1kuq82e6ruP6MwL",
+        "created": 1748406380573
+      },
+      {
         "status": "published",
         "elements": [
           {
@@ -17206,7 +17264,7 @@
   "mdBorderColor": "Black",
   "mdCSS": "",
   "scriptEngineSettings": {},
-  "defaultTrayMode": true,
+  "defaultTrayMode": false,
   "previousRelease": "2.6.6",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
