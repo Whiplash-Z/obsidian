@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1bb6eab200998725",
+            "id": "1982eb4f235e4292",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/컴공 전공 지식/운영체제/원자성, 동기화 그리고 교착상태.md",
+                "file": "0. Lovely Box/생각 정리 - 서버.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,19 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "원자성, 동기화 그리고 교착상태"
-            }
-          },
-          {
-            "id": "1982eb4f235e4292",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-05-28 13.40.21.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-05-28 13.40.21.excalidraw"
+              "title": "생각 정리 - 서버"
             }
           }
         ]
@@ -100,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.51103591918945,
-    "collapsed": true
+    "width": 338.51103591918945
   },
   "right": {
     "id": "202c84756aa6c013",
@@ -202,11 +189,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1bb6eab200998725",
+  "active": "1982eb4f235e4292",
   "lastOpenFiles": [
-    "4. Archive/attachedFiles/Pasted image 20250529160036.png",
-    "1. Projects/컴공 전공 지식/운영체제/동시성과 병렬성.md",
+    "Excalidraw/LInux.excalidraw.md",
+    "1. Projects/CS 완전 정복",
+    "Excalidraw/Drawing 2025-05-28 13.15.53.excalidraw.md",
+    "Excalidraw/java-memory.excalidraw.md",
+    "동시성과 병렬성 (Josh).md",
+    "로드맵.md",
     "1. Projects/컴공 전공 지식/운영체제/원자성, 동기화 그리고 교착상태.md",
+    "1. Projects/컴공 전공 지식/운영체제/동시성과 병렬성.md",
+    "4. Archive/attachedFiles/Pasted image 20250529160036.png",
     "4. Archive/attachedFiles/Pasted image 20250529154400.png",
     "4. Archive/attachedFiles/Pasted image 20250529153931.png",
     "0. Lovely Box/생각 정리 - 서버.md",
@@ -232,18 +225,12 @@
     "1. Projects/Infra/Linux/3) 파일 및 폴더 생성.md",
     "1. Projects/ComputerScienceNote/1) 개발자 필수 지식",
     "1. Projects/ComputerScienceNote/2) 디자인 패턴",
-    "4. Archive/attachedFiles/Pasted image 20250528151028.png",
     "1. Projects/Infra/Linux/1) Linux 동작 순서.md",
-    "Excalidraw/Drawing 2025-05-28 13.40.21.excalidraw.md",
     "1. Projects/Infra/Linux/2) 컴퓨터의 폴더 구조 탐색.md",
-    "Excalidraw/Drawing 2025-05-28 13.15.53.excalidraw.md",
     "2. Area/3) DataBase/【한글자막】 실무 활용 중심의 MySQL 부트캠프.md",
     "2. Area/4) Linux/파일 및 폴더 생성.md",
     "2. Area/4) Linux/Linux 동작 원리.md",
-    "Excalidraw/java-memory.excalidraw.md",
     "0. Lovely Box/✅ 할 일.md",
-    "2. Area/지원하고 싶은 회사.md",
-    "2. Area/만들어보고 싶은 프로젝트.md",
     "4. Archive/attachedFiles/HashStart2.java",
     "3. Resource/JD",
     "JWT & Session.canvas",
@@ -251,7 +238,6 @@
     "1. Projects/Infra/Linux",
     "Untitled.canvas",
     "1. Projects/ComputerScienceNote",
-    "0. Lovely Box/🔭 Brain Map.canvas",
-    "1. Projects/JPA"
+    "0. Lovely Box/🔭 Brain Map.canvas"
   ]
 }
