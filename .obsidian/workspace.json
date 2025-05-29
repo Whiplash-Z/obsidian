@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/Infra/Linux/4) Nano 텍스트 편집기.md",
+                "file": "1. Projects/컴공 전공 지식/운영체제/원자성, 동기화 그리고 교착상태.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4) Nano 텍스트 편집기"
+              "title": "원자성, 동기화 그리고 교착상태"
             }
           },
           {
@@ -100,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.51103591918945
+    "width": 338.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "202c84756aa6c013",
@@ -203,11 +204,18 @@
   },
   "active": "1bb6eab200998725",
   "lastOpenFiles": [
+    "4. Archive/attachedFiles/Pasted image 20250529160036.png",
+    "1. Projects/컴공 전공 지식/운영체제/동시성과 병렬성.md",
+    "1. Projects/컴공 전공 지식/운영체제/원자성, 동기화 그리고 교착상태.md",
+    "4. Archive/attachedFiles/Pasted image 20250529154400.png",
+    "4. Archive/attachedFiles/Pasted image 20250529153931.png",
+    "0. Lovely Box/생각 정리 - 서버.md",
+    "1. Projects/컴공 전공 지식/운영체제",
+    "1. Projects/Infra/Linux/4) Nano 텍스트 편집기.md",
     "4. Archive/attachedFiles/Pasted image 20250529124846.png",
     "4. Archive/attachedFiles/Pasted image 20250529124015.png",
     "4. Archive/attachedFiles/Pasted image 20250529122705.png",
     "2. Area/1) Java/3) Generic & Collection/Collection - 5) Hash Code.md",
-    "1. Projects/Infra/Linux/4) Nano 텍스트 편집기.md",
     "2. Area/1) Java/3) Generic & Collection/Collection - 4) 해시 알고리즘.md",
     "2. Area/1) Java/3) Generic & Collection/Collection - 3) LinkedList.md",
     "1. Projects/project/redis/Redis(Remote Dictionary Server)란?.md",
@@ -225,24 +233,18 @@
     "1. Projects/ComputerScienceNote/1) 개발자 필수 지식",
     "1. Projects/ComputerScienceNote/2) 디자인 패턴",
     "4. Archive/attachedFiles/Pasted image 20250528151028.png",
-    "4. Archive/attachedFiles/Pasted image 20250528144735.png",
-    "4. Archive/attachedFiles/Pasted image 20250528143715.png",
     "1. Projects/Infra/Linux/1) Linux 동작 순서.md",
     "Excalidraw/Drawing 2025-05-28 13.40.21.excalidraw.md",
     "1. Projects/Infra/Linux/2) 컴퓨터의 폴더 구조 탐색.md",
-    "4. Archive/attachedFiles/Pasted Image 20250528141409_118.png",
     "Excalidraw/Drawing 2025-05-28 13.15.53.excalidraw.md",
     "2. Area/3) DataBase/【한글자막】 실무 활용 중심의 MySQL 부트캠프.md",
     "2. Area/4) Linux/파일 및 폴더 생성.md",
     "2. Area/4) Linux/Linux 동작 원리.md",
     "Excalidraw/java-memory.excalidraw.md",
-    "0. Lovely Box/생각 정리 - 서버.md",
     "0. Lovely Box/✅ 할 일.md",
     "2. Area/지원하고 싶은 회사.md",
     "2. Area/만들어보고 싶은 프로젝트.md",
-    "2. Area/1) Java/3) Generic & Collection/ArrayList vs LinkedList.md",
     "4. Archive/attachedFiles/HashStart2.java",
-    "로드맵.md",
     "3. Resource/JD",
     "JWT & Session.canvas",
     "1. Projects/컴공 전공 지식",
@@ -250,7 +252,6 @@
     "Untitled.canvas",
     "1. Projects/ComputerScienceNote",
     "0. Lovely Box/🔭 Brain Map.canvas",
-    "1. Projects/JPA",
-    "1. Projects/Infra/Docker"
+    "1. Projects/JPA"
   ]
 }
