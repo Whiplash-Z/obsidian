@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/Infra/Linux/5) 삭제, 복사, 이동.md",
+                "file": "1. Projects/Infra/Linux/6) 단축키와 히스토리.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5) 삭제, 복사, 이동"
+              "title": "6) 단축키와 히스토리"
             }
           }
         ]
@@ -191,6 +191,14 @@
   },
   "active": "1982eb4f235e4292",
   "lastOpenFiles": [
+    "4. Archive/attachedFiles/Pasted image 20250601131525.png",
+    "4. Archive/attachedFiles/Pasted image 20250601131157.png",
+    "4. Archive/attachedFiles/Pasted image 20250601130513.png",
+    "4. Archive/attachedFiles/Pasted image 20250601130128.png",
+    "4. Archive/attachedFiles/Pasted image 20250601125955.png",
+    "4. Archive/attachedFiles/Pasted image 20250601125654.png",
+    "1. Projects/Infra/Linux/5) 삭제, 복사, 이동.md",
+    "1. Projects/Infra/Linux/6) 단축키와 히스토리.md",
     "4. Archive/attachedFiles/Pasted image 20250531155344.png",
     "4. Archive/attachedFiles/Pasted image 20250531153831.png",
     "4. Archive/attachedFiles/Pasted image 20250531142858.png",
@@ -198,7 +206,6 @@
     "1. Projects/1) Java/4) 멀티스레드와 동시성/📌 멀티스레드와 동시성 INDEX.md",
     "1. Projects/Infra/Linux/📌 Linux Basic INDEX.md",
     "1. Projects/Infra/Linux/2) 컴퓨터의 폴더 구조 탐색.md",
-    "1. Projects/Infra/Linux/5) 삭제, 복사, 이동.md",
     "4. Archive/attachedFiles/Pasted image 20250531140733.png",
     "0. Lovely Box/생각 정리 - 서버.md",
     "2. Area/1) Java/3) Generic & Collection/Collection - 5) Hash Code.md",
@@ -210,14 +217,8 @@
     "로드맵.md",
     "1. Projects/컴공 전공 지식/운영체제/원자성, 동기화 그리고 교착상태.md",
     "1. Projects/컴공 전공 지식/운영체제/동시성과 병렬성.md",
-    "4. Archive/attachedFiles/Pasted image 20250529160036.png",
-    "4. Archive/attachedFiles/Pasted image 20250529154400.png",
-    "4. Archive/attachedFiles/Pasted image 20250529153931.png",
     "1. Projects/컴공 전공 지식/운영체제",
     "1. Projects/Infra/Linux/4) Nano 텍스트 편집기.md",
-    "4. Archive/attachedFiles/Pasted image 20250529124846.png",
-    "4. Archive/attachedFiles/Pasted image 20250529124015.png",
-    "4. Archive/attachedFiles/Pasted image 20250529122705.png",
     "2. Area/1) Java/3) Generic & Collection/Collection - 4) 해시 알고리즘.md",
     "2. Area/1) Java/3) Generic & Collection/Collection - 3) LinkedList.md",
     "1. Projects/project/redis/Redis(Remote Dictionary Server)란?.md",
@@ -231,7 +232,6 @@
     "1. Projects/ComputerScienceNote/1) 개발자 필수 지식",
     "1. Projects/ComputerScienceNote/2) 디자인 패턴",
     "1. Projects/Infra/Linux/1) Linux 동작 순서.md",
-    "2. Area/3) DataBase/【한글자막】 실무 활용 중심의 MySQL 부트캠프.md",
     "4. Archive/attachedFiles/HashStart2.java",
     "3. Resource/JD",
     "JWT & Session.canvas",
