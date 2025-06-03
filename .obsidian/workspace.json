@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "817290c93f38ae12",
+        "id": "705b0f1bfb92fc26",
         "type": "tabs",
         "children": [
           {
-            "id": "1982eb4f235e4292",
+            "id": "3ac8d2a272571924",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/Infra/Linux/7) 파일로 작업하기.md",
+                "file": "1. Projects/Infra/Linux/8) 리다이렉션.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "7) 파일로 작업하기"
+              "title": "8) 리다이렉션"
             }
           }
         ]
@@ -190,23 +190,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1982eb4f235e4292",
+  "active": "3ac8d2a272571924",
   "lastOpenFiles": [
+    "1. Projects/Infra/Linux/7) 파일로 작업하기.md",
+    "1. Projects/Infra/Linux/8) 리다이렉션.md",
+    "4. Archive/attachedFiles/Pasted image 20250603121119.png",
+    "4. Archive/attachedFiles/Pasted image 20250603120306.png",
+    "4. Archive/attachedFiles/Pasted image 20250603115551.png",
+    "4. Archive/attachedFiles/Pasted image 20250603114230.png",
+    "4. Archive/attachedFiles/Pasted image 20250603113709.png",
+    "4. Archive/attachedFiles/Pasted image 20250603113140.png",
+    "4. Archive/attachedFiles/Pasted image 20250603112542.png",
+    "4. Archive/attachedFiles/Pasted image 20250603111116.png",
+    "4. Archive/attachedFiles/Pasted image 20250603110626.png",
+    "4. Archive/attachedFiles/Pasted image 20250603105844.png",
     "1. Projects/Infra/Linux/6) 단축키와 히스토리.md",
     "0. Lovely Box/drawing.excalidraw.md",
     "README.md",
-    "1. Projects/Infra/Linux/7) 파일로 작업하기.md",
-    "4. Archive/attachedFiles/Pasted image 20250602173509.png",
-    "4. Archive/attachedFiles/Pasted image 20250602171459.png",
-    "4. Archive/attachedFiles/Pasted image 20250602170658.png",
-    "4. Archive/attachedFiles/Pasted image 20250602165331.png",
-    "4. Archive/attachedFiles/Pasted image 20250602164957.png",
-    "4. Archive/attachedFiles/Pasted image 20250602164356.png",
-    "4. Archive/attachedFiles/Pasted image 20250602164338.png",
-    "4. Archive/attachedFiles/Pasted image 20250602162144.png",
-    "4. Archive/attachedFiles/Pasted image 20250602161542.png",
     "Excalidraw/LInux.excalidraw.md",
-    "4. Archive/attachedFiles/Pasted Image 20250601191346_062.png",
     "1. Projects/Infra/Linux/5) 삭제, 복사, 이동.md",
     "1. Projects/1) Java/4) 멀티스레드와 동시성/📌 멀티스레드와 동시성 INDEX.md",
     "1. Projects/Infra/Linux/📌 Linux Basic INDEX.md",
@@ -229,8 +230,6 @@
     "1. Projects/컴공 전공 지식/컴퓨터 구조/HDD, SSD와 파일 시스템.md",
     "1. Projects/컴공 전공 지식/컴퓨터 구조",
     "1. Projects/컴공 전공 지식/컴퓨터 구조/컴퓨터가 연산하는 과정.md",
-    "1. Projects/ComputerScienceNote/2) 디자인 패턴/디자인패턴 소개.md",
-    "1. Projects/ComputerScienceNote/1) 개발자 필수 지식/데이터 교환 형식 JSON, 직렬화, 역직렬화.md",
     "1. Projects/ComputerScienceNote/1) 개발자 필수 지식",
     "1. Projects/ComputerScienceNote/2) 디자인 패턴",
     "4. Archive/attachedFiles/HashStart2.java",
