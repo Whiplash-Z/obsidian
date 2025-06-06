@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/Infra/Linux/확장.md",
+                "file": "1. Projects/Infra/Linux/10) 확장.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "확장"
+              "title": "10) 확장"
             }
           }
         ]
@@ -192,9 +192,19 @@
   },
   "active": "c389cb6e9bdcda79",
   "lastOpenFiles": [
+    "4. Archive/attachedFiles/Pasted image 20250606094842.png",
+    "4. Archive/attachedFiles/Pasted image 20250606094554.png",
+    "4. Archive/attachedFiles/Pasted image 20250606094124.png",
+    "4. Archive/attachedFiles/Pasted image 20250606093538.png",
+    "0. Lovely Box/drawing.excalidraw.md",
+    "동시성과 병렬성 (Josh).md",
+    "로드맵.md",
+    "Java OOP 질문 리스트.md",
+    "JWT & Session.canvas",
+    "README.md",
+    "1. Projects/Infra/Linux/10) 확장.md",
     "4. Archive/attachedFiles/Pasted image 20250605112733.png",
     "1. Projects/Infra/Linux/9) 파이프.md",
-    "1. Projects/Infra/Linux/확장.md",
     "4. Archive/attachedFiles/Pasted image 20250604100411.png",
     "4. Archive/attachedFiles/Pasted image 20250604095711.png",
     "4. Archive/attachedFiles/Pasted image 20250604094720.png",
@@ -208,13 +218,7 @@
     "1. Projects/Infra/Linux/7) 파일로 작업하기.md",
     "4. Archive/attachedFiles/Pasted image 20250603121119.png",
     "4. Archive/attachedFiles/Pasted image 20250603120306.png",
-    "4. Archive/attachedFiles/Pasted image 20250603115551.png",
-    "4. Archive/attachedFiles/Pasted image 20250603114230.png",
-    "4. Archive/attachedFiles/Pasted image 20250603113709.png",
-    "4. Archive/attachedFiles/Pasted image 20250603113140.png",
     "1. Projects/Infra/Linux/6) 단축키와 히스토리.md",
-    "0. Lovely Box/drawing.excalidraw.md",
-    "README.md",
     "Excalidraw/LInux.excalidraw.md",
     "1. Projects/Infra/Linux/5) 삭제, 복사, 이동.md",
     "1. Projects/1) Java/4) 멀티스레드와 동시성/📌 멀티스레드와 동시성 INDEX.md",
@@ -225,17 +229,13 @@
     "1. Projects/CS 완전 정복",
     "Excalidraw/Drawing 2025-05-28 13.15.53.excalidraw.md",
     "Excalidraw/java-memory.excalidraw.md",
-    "동시성과 병렬성 (Josh).md",
-    "로드맵.md",
     "1. Projects/컴공 전공 지식/운영체제/원자성, 동기화 그리고 교착상태.md",
-    "1. Projects/컴공 전공 지식/운영체제/동시성과 병렬성.md",
     "1. Projects/컴공 전공 지식/운영체제",
     "1. Projects/컴공 전공 지식/컴퓨터 구조",
     "1. Projects/ComputerScienceNote/1) 개발자 필수 지식",
     "1. Projects/ComputerScienceNote/2) 디자인 패턴",
     "4. Archive/attachedFiles/HashStart2.java",
     "3. Resource/JD",
-    "JWT & Session.canvas",
     "1. Projects/컴공 전공 지식",
     "1. Projects/Infra/Linux",
     "Untitled.canvas",
