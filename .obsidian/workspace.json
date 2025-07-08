@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/kata/1. 두 수의 차.md",
-                "mode": "source",
+                "file": "1. Projects/kata/DB/이름 있는 동물의 아이디.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1. 두 수의 차"
+              "title": "이름 있는 동물의 아이디"
             }
           }
         ],
@@ -226,8 +226,11 @@
   },
   "active": "8417d3e5f8fc0d2c",
   "lastOpenFiles": [
+    "1. Projects/kata/JAVA/1. 두 수의 차.md",
+    "1. Projects/kata/DB/이름 있는 동물의 아이디.md",
+    "1. Projects/kata/DB",
+    "1. Projects/kata/JAVA",
     "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/📌 기본편 (스프링) INDEX.md",
-    "1. Projects/kata/1. 두 수의 차.md",
     "1. Projects/kata",
     "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/스프링 핵심 원리.md",
     "2. Area/1) Java/3) Generic & Collection/📌 중급 2편 INDEX.md",
@@ -262,7 +265,6 @@
     "4. Archive/attachedFiles/Pasted image 20250606094124.png",
     "4. Archive/attachedFiles/Pasted image 20250606093538.png",
     "동시성과 병렬성 (Josh).md",
-    "로드맵.md",
     "JWT & Session.canvas",
     "1. Projects/CS 완전 정복",
     "1. Projects/컴공 전공 지식/운영체제",
@@ -271,8 +273,6 @@
     "1. Projects/ComputerScienceNote/2) 디자인 패턴",
     "4. Archive/attachedFiles/HashStart2.java",
     "3. Resource/JD",
-    "1. Projects/컴공 전공 지식",
-    "1. Projects/Infra/Linux",
     "Untitled.canvas",
     "0. Lovely Box/🔭 Brain Map.canvas"
   ]
