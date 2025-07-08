@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/kata/DB/이름 있는 동물의 아이디.md",
+                "file": "1. Projects/kata/DB/2) 역순 정렬하기.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "이름 있는 동물의 아이디"
+              "title": "2) 역순 정렬하기"
             }
           }
         ],
@@ -226,8 +226,9 @@
   },
   "active": "8417d3e5f8fc0d2c",
   "lastOpenFiles": [
-    "1. Projects/kata/JAVA/1. 두 수의 차.md",
     "1. Projects/kata/DB/이름 있는 동물의 아이디.md",
+    "1. Projects/kata/DB/2) 역순 정렬하기.md",
+    "1. Projects/kata/JAVA/1. 두 수의 차.md",
     "1. Projects/kata/DB",
     "1. Projects/kata/JAVA",
     "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/📌 기본편 (스프링) INDEX.md",
@@ -264,7 +265,6 @@
     "4. Archive/attachedFiles/Pasted image 20250606094554.png",
     "4. Archive/attachedFiles/Pasted image 20250606094124.png",
     "4. Archive/attachedFiles/Pasted image 20250606093538.png",
-    "동시성과 병렬성 (Josh).md",
     "JWT & Session.canvas",
     "1. Projects/CS 완전 정복",
     "1. Projects/컴공 전공 지식/운영체제",
