@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/kata/JAVA/3. 몫 구하기.md",
+                "file": "1. Projects/kata/DB/3) 중복 제거하기.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3. 몫 구하기"
+              "title": "3) 중복 제거하기"
             }
           }
         ],
@@ -226,8 +226,9 @@
   },
   "active": "8417d3e5f8fc0d2c",
   "lastOpenFiles": [
-    "1. Projects/kata/JAVA/2. 두 수의 곱.md",
     "1. Projects/kata/JAVA/3. 몫 구하기.md",
+    "1. Projects/kata/DB/3) 중복 제거하기.md",
+    "1. Projects/kata/JAVA/2. 두 수의 곱.md",
     "1. Projects/kata/JAVA/1. 두 수의 차.md",
     "1. Projects/kata/DB/2) 역순 정렬하기.md",
     "1. Projects/kata/DB/이름 있는 동물의 아이디.md",
@@ -260,7 +261,6 @@
     "Excalidraw/Drawing 2025-06-22 14.48.40.excalidraw.md",
     "1. Projects/Infra/Linux/11) 찾기.md",
     "4. Archive/attachedFiles/Pasted image 20250613155045.png",
-    "1. Projects/Infra/Linux/7) 파일로 작업하기.md",
     "4. Archive/attachedFiles/Pasted image 20250606094842.png",
     "4. Archive/attachedFiles/Pasted image 20250606094554.png",
     "4. Archive/attachedFiles/Pasted image 20250606094124.png",
