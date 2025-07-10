@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Projects/kata/JAVA/5. 숫자 출력하기.md",
+                "file": "1. Projects/kata/JAVA/6. 두 수의 합.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5. 숫자 출력하기"
+              "title": "6. 두 수의 합"
             }
           }
         ],
@@ -226,8 +226,9 @@
   },
   "active": "8417d3e5f8fc0d2c",
   "lastOpenFiles": [
-    "1. Projects/kata/JAVA/4. 나이 출력.md",
     "1. Projects/kata/JAVA/5. 숫자 출력하기.md",
+    "1. Projects/kata/JAVA/6. 두 수의 합.md",
+    "1. Projects/kata/JAVA/4. 나이 출력.md",
     "1. Projects/kata/DB/4) 동명 동물 수 찾기.md",
     "1. Projects/kata/DB/3) 중복 제거하기.md",
     "1. Projects/kata/JAVA/3. 몫 구하기.md",
@@ -254,7 +255,6 @@
     "1. Projects/컴공 전공 지식/운영체제/원자성, 동기화 그리고 교착상태.md",
     "1. Projects/컴공 전공 지식/운영체제/컴퓨터의 구성요소와 아바타.md",
     "1. Projects/컴공 전공 지식/컴퓨터 구조/컴퓨터가 기억공간을 관리하는 방법.md",
-    "1. Projects/컴공 전공 지식/컴퓨터 구조/컴퓨터가 연산하는 과정.md",
     "4. Archive/attachedFiles/Pasted Image 20250627112736_270.png",
     "4. Archive/attachedFiles/Pasted Image 20250627112012_814.png",
     "4. Archive/attachedFiles/Pasted Image 20250627111230_272.png",
