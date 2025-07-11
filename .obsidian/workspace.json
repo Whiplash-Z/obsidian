@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/📌 기본편 (스프링) INDEX.md",
+                "file": "1. Projects/kata/DB/상위 n개 레코드.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "📌 기본편 (스프링) INDEX"
+              "title": "상위 n개 레코드"
             }
           },
           {
@@ -55,8 +55,7 @@
               "title": "6. 두 수의 합"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -224,10 +223,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8417d3e5f8fc0d2c",
+  "active": "0e35e32cd559729c",
   "lastOpenFiles": [
-    "1. Projects/kata/JAVA/5. 숫자 출력하기.md",
+    "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/의존관계 자동 주입.md",
+    "1. Projects/kata/DB/상위 n개 레코드.md",
+    "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/싱글톤 컨테이너.md",
+    "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/스프링 핵심 원리.md",
+    "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/빈 생명주기 콜백.md",
+    "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/객체 지향 설계와 스프링.md",
+    "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/📌 기본편 (스프링) INDEX.md",
     "1. Projects/kata/JAVA/6. 두 수의 합.md",
+    "1. Projects/kata/JAVA/5. 숫자 출력하기.md",
     "1. Projects/kata/JAVA/4. 나이 출력.md",
     "1. Projects/kata/DB/4) 동명 동물 수 찾기.md",
     "1. Projects/kata/DB/3) 중복 제거하기.md",
@@ -238,23 +244,16 @@
     "1. Projects/kata/DB/이름 있는 동물의 아이디.md",
     "1. Projects/kata/DB",
     "1. Projects/kata/JAVA",
-    "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/📌 기본편 (스프링) INDEX.md",
     "1. Projects/kata",
-    "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/스프링 핵심 원리.md",
     "2. Area/1) Java/3) Generic & Collection/📌 중급 2편 INDEX.md",
     "2. Area/1) Java/3) Generic & Collection/1) Generic을 사용하는 이유.md",
     "3. Resource/Dev_Questions/@Component와 @ComponentScan이 스프링 빈을 생성하고 의존성을 관리하는 방식.md",
-    "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/객체 지향 설계와 스프링.md",
-    "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/싱글톤 컨테이너.md",
-    "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/빈 생명주기 콜백.md",
     "Excalidraw/CS.excalidraw.md",
     "0. Lovely Box/drawing.excalidraw.md",
     "2. Area/1) Java/3) Generic & Collection/Collection - 5) Hash Code.md",
     "2. Area/1) Java/3) Generic & Collection/Collection - 4) 해시 알고리즘.md",
     "1. Projects/컴공 전공 지식/운영체제/동시성과 병렬성.md",
     "1. Projects/컴공 전공 지식/운영체제/원자성, 동기화 그리고 교착상태.md",
-    "1. Projects/컴공 전공 지식/운영체제/컴퓨터의 구성요소와 아바타.md",
-    "1. Projects/컴공 전공 지식/컴퓨터 구조/컴퓨터가 기억공간을 관리하는 방법.md",
     "4. Archive/attachedFiles/Pasted Image 20250627112736_270.png",
     "4. Archive/attachedFiles/Pasted Image 20250627112012_814.png",
     "4. Archive/attachedFiles/Pasted Image 20250627111230_272.png",
