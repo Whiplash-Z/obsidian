@@ -11,24 +11,12 @@
             "id": "0e35e32cd559729c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "1. Projects/kata/JAVA/각도기.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Excalidraw/CS.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "각도기"
+              "icon": "excalidraw-icon",
+              "title": "CS.excalidraw"
             }
           },
           {
@@ -225,8 +213,10 @@
   },
   "active": "0e35e32cd559729c",
   "lastOpenFiles": [
-    "1. Projects/kata/JAVA/두 수의 나눗셈.md",
+    "0. Lovely Box/drawing.excalidraw.md",
+    "0. Lovely Box/Callout List.md",
     "1. Projects/kata/JAVA/각도기.md",
+    "1. Projects/kata/JAVA/두 수의 나눗셈.md",
     "1. Projects/kata/DB/상위 n개 레코드.md",
     "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/의존관계 자동 주입.md",
     "2. Area/2) Spring/2)스프링 핵심 원리 - 기본편/싱글톤 컨테이너.md",
@@ -251,9 +241,7 @@
     "2. Area/1) Java/3) Generic & Collection/1) Generic을 사용하는 이유.md",
     "3. Resource/Dev_Questions/@Component와 @ComponentScan이 스프링 빈을 생성하고 의존성을 관리하는 방식.md",
     "Excalidraw/CS.excalidraw.md",
-    "0. Lovely Box/drawing.excalidraw.md",
     "2. Area/1) Java/3) Generic & Collection/Collection - 5) Hash Code.md",
-    "2. Area/1) Java/3) Generic & Collection/Collection - 4) 해시 알고리즘.md",
     "4. Archive/attachedFiles/Pasted Image 20250627112736_270.png",
     "4. Archive/attachedFiles/Pasted Image 20250627112012_814.png",
     "4. Archive/attachedFiles/Pasted Image 20250627111230_272.png",
